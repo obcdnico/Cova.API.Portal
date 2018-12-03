@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+        window.__insp = window.__insp || [];
+        __insp.push(['wid', 58796247]);
+        (function () {
+            function ldinsp() { if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+            setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+        })();
+</script>
+<!-- End Inspectlet Embed Code -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+        <title> COVA API Documentation - 1.0</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans", sans-serif;
+            overflow: auto !important;
+        }
+
+        .apimatic-container {
+            height:100%;
+        }
+
+        .relative-wrapper {
+            width:100%;
+            position:relative;
+            overflow-y:scroll;
+        }
+
+        .absolute-wrapper {
+            width:100%;
+            position:absolute;
+        }
+
+        .hosted-api-docs {
+            position:relative;
+            min-width: 995px;
+            height: calc(100vh - 70px);
+        }
+
+        .portal-header {
+            width: 100%;
+            min-width:995px;
+            height: 70px;
+            background:#fff url('') no-repeat no-repeat right;
+            position:relative;
+            z-index:999;
+        }
+
+        .branding-container {
+            width: 100%;
+            height: 70px;
+            padding:0 30px;
+            box-sizing: border-box;
+        }
+        .branding-container .logo {
+            width:60%;
+            height: 70px;
+            float:left;
+            margin: 0 auto;
+        }
+
+        .branding-container .logo img {
+            height: 40px;
+            float: left;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 40%;
+        }
+
+        .branding-container .logo p {
+            height: 40px;
+            line-height: 40px;
+            float: left;
+            color: #2e323c;
+            font-size: 18px;
+            margin: 0px 0 0 15px;
+            border-left: 1px solid #d9dee5;
+            padding-left: 15px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 55%;
+        }
+
+        .branding-container .navigation {
+                width: 40%;
+                height: 70px;
+                float: left;
+                position: relative;
+                margin: 0 !important;
+        }
+
+        .portal {
+            outline: none;
+            border: none;
+            width: 100%;
+        }
+
+        .branding-container .navigation .center {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 30px;
+        }
+
+        .branding-container .navigation .center .version-select {
+            float: right;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .branding-container .navigation .center .version-select label {
+            font-size: 12px;
+            color: #7c8395;
+            margin-right: 5px;
+        }
+
+        .branding-container .navigation .center .version-select select {
+            width: 100px;
+            height: 25px;
+            background: #fff url('/imgs/docs/hostedDocs/selectArrowDown.svg') no-repeat center;
+            background-position: 90%;
+            border: 1px solid #d9dee5;
+            border-radius: 3px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            padding: 1px 4px;
+            color: #2981d2;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 0px;
+            display: inline-block;
+            margin-top: 3px;
+            -webkit-box-sizing: border-box !important;
+            -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+        }
+
+        .branding-container .navigation .center .version-select select:hover, .portal-header .navigation .version-select select:active, .portal-header .navigation .version-select select:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .branding-container .navigation .center .home-button {
+            float: right;
+            line-height: 30px;
+            margin: 0 0 0 25px;
+        }
+
+        .branding-container .navigation .center .home-button .circle-base {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: #d9dee5 url('/imgs/docs/hostedDocs/Home.svg') no-repeat center;
+            border-radius: 50%;
+        }
+
+        .branding-container .navigation .center .home-button .circle-base:hover {
+            background-color: #ced4dd;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+            var versionSelect = document.getElementById("version-select");
+            versionSelect.value = "5beef48aa8313b0874c29d54";
+            versionSelect.addEventListener('change', function () {
+                //console.log("event triggers")
+                var apiEntityId = versionSelect.options[versionSelect.selectedIndex].value;
+                var host = window.location.host;
+                var protocol = window.location.protocol;
+                var url = protocol + "//" + host + "/api-docs-preview/" + apiEntityId + "/docs";
+                window.location.href = url;
+            });
+        }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+        crossorigin="anonymous"></script>
+
+<script>
+    !function () {
+        var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+        analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"]; analytics.factory = function (t) { return function () { var e = Array.prototype.slice.call(arguments); e.unshift(t); analytics.push(e); return analytics } }; for (var t = 0; t < analytics.methods.length; t++) { var e = analytics.methods[t]; analytics[e] = analytics.factory(e) } analytics.load = function (t, e) { var n = document.createElement("script"); n.type = "text/javascript"; n.async = !0; n.src = "https://cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(n, a); analytics._loadOptions = e }; analytics.SNIPPET_VERSION = "4.1.0";
+            analytics.load("ppr6hrQ3f2XiM9xsXNsgApYzlcmrqqk3");
+            analytics.page();
+        }
+    }();
+</script>
+<!-- start Mixpanel -->
+<script type="text/javascript">
+    (function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+    0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+    for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+        mixpanel.init("c20ead2eb17ee9ae6aad08545e86c00d");
+</script><!-- end Mixpanel -->
+
+<!-- Start of apimatic GAnalytics script -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47283675-2', 'apimatic.io');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+<!-- End of apimatic GAnalytics script -->
+
+<script type='text/javascript'>
+    var appInsights = window.appInsights || function (config) {
+        function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } }
+        var t = { config: config }, u = document, e = window, o = 'script', s = u.createElement(o), i, f; for (s.src = config.url || '//az416426.vo.msecnd.net/scripts/a/ai.0.js', u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Ajax']; i.length;)r('track' + i.pop()); return r('setAuthenticatedUserContext'), r('clearAuthenticatedUserContext'), config.disableExceptionTracking || (i = 'onerror', r('_' + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o), s }), t
+    }({
+        instrumentationKey: ''
+    });
+
+    window.appInsights = appInsights;
+    appInsights.trackPageView();
+</script>
+
+<script type="text/javascript">
+    (function (o) { var b = "https://api.autopilothq.com/anywhere/", t = "45a048fa64fe4980986099611145f61d5be1c067bf6947d3b74ad40adf04873b", a = window.AutopilotAnywhere = { _runQueue: [], run: function () { this._runQueue.push(arguments); } }, c = encodeURIComponent, s = "SCRIPT", d = document, l = d.getElementsByTagName(s)[0], p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || ""), j = "text/javascript", z, y; if (!window.Autopilot) window.Autopilot = a; if (o.app) p = "devmode=true&" + p; z = function (src, asy) { var e = d.createElement(s); e.src = src; e.type = j; e.async = asy; l.parentNode.insertBefore(e, l); }; if (!o.noaa) { z(b + "aa/" + t + '?' + p, false) }; y = function () { z(b + t + '?' + p, true); }; if (window.attachEvent) { window.attachEvent("onload", y); } else { window.addEventListener("load", y, false); } })({});
+</script>
+
+    <script>
+        zE(function() {
+            zE.identify({ name: 'Troy G Bell', email: 'troyb@iqmetrix.com', externalId: '5bede326a83135087461b042',phoneNumber: '1-8888888170' });
+        });
+    </script>
+    <script type="text/javascript">
+        Autopilot.run("associate", {
+            Email: "troyb@iqmetrix.com",
+            FirstName: "Troy G Bell",
+            PhoneNumber:"1-8888888170"
+        });
+    </script>
+    <script>
+            window.analytics.identify("5bede326a83135087461b042", {
+                "name": "Troy G Bell",
+                "email": "troyb@iqmetrix.com",
+                "userName": "troyb@iqmetrix.com",
+                "company":"IQmetrix",
+                "createdAt": "11/15/2018 9:20:38 PM",
+                "phoneNumber": "1-8888888170",
+                "created": "11/15/2018 9:20:38 PM" ,
+                "firstName": "Troy G Bell" ,
+                "lastName": "",
+                "username": "troyb@iqmetrix.com" ,
+                "phone": "1-8888888170" ,
+                "phoneNumber": "1-8888888170"
+            });
+    </script>
+<script>
+        (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/ilx3qw6k'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+</script>
+</head>
+<body>
+    <div class="apimatic-container">
+        <div class="portal-header">
+            <div class="branding-container">
+                <div class="logo">
+                                            <p> COVA API Documentation</p>
+                </div>
+                <div class="navigation">
+                    <div class="center">
+                        <div class="home-button">
+                            <a href="/api-docs-preview/5beef48aa8313b0874c29d54" class="circle-base"></a>
+                        </div>
+                        <div class="version-select">
+                            <label>Version</label>
+                            <select id="version-select" name="version"><option value="5beef48aa8313b0874c29d54">1.0</option>
+</select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hosted-api-docs">
+            <script type="text/javascript">
+    var script = document.createElement("script");
+    script.src="https://dxjs.apimatic.io/static/js/portal.v5.js";
+    script.onload = function() {
+        APIMaticDevPortal.show({
+            container: "apimatic-widget",
+            apiKey: "FmxKZBYAfT3JPEmCqoM_5FsgcxQ4jUpQFedjkVJQUP1CTR_d0GqRY3Mdz_RZVSdC",
+            baseUrl: "https://www.apimatic.io",
+            enableExport: true,
+            renameHttpToRest: false,
+            enableConsoleCalls: true,
+            useProxyForConsoleCalls: true,
+            allowedLanguages:[
+                "docs-http",
+                "cs_net_standard_lib",
+                "cs_universal_windows_platform_lib",
+                "cs_portable_net_lib",
+                "java_gradle_android_lib",
+                "objc_cocoa_touch_ios_lib",
+                "java_eclipse_jre_lib",
+                "php_generic_lib",
+                "python_generic_lib",
+                "ruby_generic_lib",
+                "angular_javascript_lib",
+                "node_javascript_lib",
+                "go_generic_lib"
+            ],
+            themeOverrides: {
+                palette:{
+                    primaryColor1:"#2981d2"
+                }
+            }
+        });
+    };
+    document.getElementsByTagName("head")[0].appendChild(script);
+</script>
+<div id="apimatic-widget" style="height: 100%; width: 100%;"/>
+        </div>
+
+    </div>
+        <div ng-app="apimaticApp">
+            <portal-preview-options api-id="5beef48aa8313b0874c29d54"
+                                    message="Like what you see? Customize it to fit your needs and publish to make the portal yours."
+                                    button-text="Customize / Publish"
+                                    cancel-button="hide">
+            </portal-preview-options>
+        </div>
+<script src="https://ft-polyfill-service.herokuapp.com/v2/polyfill.min.js?features=default,String.prototype.trim,Object.keys,Array.isArray,Array.prototype.filter,Array.prototype.find,Array.prototype.map,Array.prototype.indexOf,Array.prototype.map,Array.prototype.findIndex,modernizr:es5array"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+
+<script src="/bundles/front-js?v=UHBw1Io9Djd4tJ9Usw-KPgoO1M1Rd6f4PUSfhjYfZtc1"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-sanitize.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-aria.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"
+        integrity="sha256-tyfWW2LtJQNI+l3F0h6xDV/ij6Mfn8lwSKHWOsmEgXM="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-notification/0.3.6/angular-ui-notification.js"
+        integrity="sha256-VTliIwXOO5VUVjSukUkAqP3+hSM2U3aLJGtv3xvGOag="
+        crossorigin="anonymous"></script>
+
+<!-- Angular Material Library -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-md5/0.1.10/angular-md5.min.js"
+        integrity="sha256-A2SSg639CZKzyEHu+Q0lxtbmHxtJrjV+tMUOJLtNjgA="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.17.1/sortable.min.js"
+        crossorigin="anonymous">
+    // dependencies
+    //JQuery v3.1+ (for jQuery v1.x & v2.x use v0.14.x versions)
+    //JQueryUI v1.12+
+    //AngularJS v1.2+
+    //JQueryUI dependecies include core, widget, mouse & sortable.
+</script>
+
+<!-- ANGULAR-CSS-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.min.js"></script>
+
+
+<script src="/bundles/angular-js?v=Omlao2cYHUg4LwEkFQIsU9BNHjqTbgRZ1umoiwCbqzo1"></script>
+        <!-- Replaced Bootstrap 3 modal.js function for ngclipboard STARTS -->
+        <script>
+            $.fn.modal.Constructor.prototype.enforceFocus = function () { };
+        </script>
+        <!-- Replaced Bootstrap modal.js function for ngclipboard ENDS -->
+        <!-- jQuery scroll bar CDN (should be placed after frontJs and angularJs)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js"
+                integrity="sha256-iqaDcfMQ0xvQNphruXssongznuuGlywMGR829DTq/Zk="
+                crossorigin="anonymous">
+        </script>
+        <!-- jQuery scroll bar CDN -->
+<script src="/bundles/utilities-angularApp?v=y_MFwbgqBMiMD73jXProTj8BYG0n4-lF0Ohqb1mAgyw1"></script>
+<script src="/bundles/uiComponents-angularApp?v=1cC-jEwFr1UgE4WZYyECobW9KLkgOQcTS7avxSNjxaM1"></script>
+<script src="/bundles/validation-angularApp?v=mlNW4UrlnKEX4QgJJQ-NbVa8qp-xrWF_wMzwGGMcLqY1"></script>
+<script src="/bundles/apimaticClient-angularApp?v=g-RlM5AaBNrNWJMhIFM9PTZXsTJLwP0w1PHdRHHpxxs1"></script>
+<script src="/bundles/codeGen-angularApp?v=GqCxdSZ-r36NDWnvPcx_XVLKdfZwgUuYagN_ykUQr8g1"></script>
+<script src="/bundles/apimatic-angularApp?v=dRv06OIqhBsy060oajkf3tQY-Q8D5wxIK491SyhJ5B41"></script>
+</body>
+</html>

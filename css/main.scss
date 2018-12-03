@@ -27,7 +27,7 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: $navbar-height + $navbar-margin-bottom;
+  padding-top: $navbar-height + $navbar-margin-bottom+50px;
   margin-bottom: 46px;
 }
 

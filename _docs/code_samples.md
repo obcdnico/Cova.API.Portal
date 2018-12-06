@@ -7,7 +7,16 @@ permalink: /docs/code_samples/
 
 You can start with cURL command line code samples, but you should add samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.
 
+{% for item in site.data.samplelist.toc %}
+<h3>{{item.title}}</h3>
+<ul>
+{% for entry in item.subfolderitems %}
+<li>{{entry.page}}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+
 ## Code syntax
 
 To specify language for your code blocks, follow the [Markdown code and syntax highlighting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting) section in Adam Pritchard's Markdown cheatsheet.]
-

@@ -3,7 +3,9 @@
   - home
   - workflows
   - code_samples
+  about:
   - mdreference
+  apidocs:
   - openapi
 
 - title: More information

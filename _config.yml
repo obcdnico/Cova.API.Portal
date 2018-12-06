@@ -47,10 +47,21 @@ defaults:
     layout: about
     sectionid: about
 
+- scope:
+    path: _apidocs
+    type: apidocs
+  values:
+    layout: apidocs
+    sectionid: apidocs
+
+
 collections:
   docs:
     permalink: /:collection/:path/
     output: true
   about:
+    permalink: /:collection/:path/
+    output: true
+  apidocs:
     permalink: /:collection/:path/
     output: true

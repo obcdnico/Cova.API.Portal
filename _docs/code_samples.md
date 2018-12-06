@@ -8,8 +8,9 @@ permalink: /docs/code_samples/
 You can start with cURL command line code samples, but you should add samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.
 
 {% assign path = "/token" %}
-{{ site.data.swagger.CovaAPIDocumentation.paths[path].post.summary }}
-
+{{ site.data.CovaAPIDocumentation.paths[path].post.summary }}
+</br>
+{{ site.data.CovaAPIDocumentation.paths[path].post.tags[0] }}
 
 <!--
 {% for item in site.dist.CovaAPIDocumentation.info %}

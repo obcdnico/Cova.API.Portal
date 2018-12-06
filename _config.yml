@@ -65,3 +65,4 @@ collections:
   apidocs:
     permalink: /:collection/:path/
     output: true
+ 

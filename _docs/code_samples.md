@@ -7,15 +7,65 @@ permalink: /docs/code_samples/
 
 You can start with cURL command line code samples, but you should add samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.
 
-{% for item in site.data.samplelist.toc %}
-<h3>{{item.title}}</h3>
+{% assign path = "/token" %}
+{{ site.data.swagger.CovaAPIDocumentation.paths[path].post.summary }}
+
+
+<!--
+{% for item in site.dist.CovaAPIDocumentation.info %}
+<h3>{{item.version}}</h3>
 <ul>
-{% for entry in item.subfolderitems %}
-<li>{{entry.page}}</li>
+{% for entry in item.properties %}
+<li>{{entry.type}}</li>
 {% endfor %}
 </ul>
 {% endfor %}
+-->
 
+<!--
+<table>
+    <thead>
+    <tr><th>Name</th><th>Type</th><th>Description</th><th>Required?</th></tr>
+    </thead>
+    {% for parameter in site.data.CovaAPIDocumentation.paths.post.parameters %}
+        {% if parameter.in == "query" %}
+        <tr>
+            <td><code>{{ parameter.name }}</code></td>
+            <td><code>{{ parameter.type }}</code></td>
+            <td>
+            {% assign found = false %}
+            {% for param in site.data.swagger.paths.get.parameters %}
+                {% if parameter.name == param.name %}
+                    {{ param.description }}
+                    {% assign found = true %}
+                {% endif %}
+            {% endfor %}
+            {% if found == false %}
+                ** New parameter **
+            {% endif %}
+            </td>
+            <td><code>{{ parameter.required }}</code></td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+-->
+
+<!--
+
+<script src="https://cdn.rawgit.com/JS-DevTools/swagger-parser/dist/swagger-parser.js"></script>
+<script>
+var myAPI = site.dist.CovaAPIDocumentation
+  SwaggerParser.validate(myAPI, function(err, api) {
+    if (err) {
+      console.error(err);
+    }
+    else {
+      console.log("API name: %s, Version: %s", api.info.title, api.info.version);
+    }
+  });
+</script> 
+-->
 
 ## Code syntax
 

@@ -28,6 +28,8 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
+  - vendor
+
 timezone: US/Eastern
 defaults:
 

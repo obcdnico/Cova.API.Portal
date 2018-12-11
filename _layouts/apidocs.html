@@ -5,7 +5,7 @@ layout: default
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-2 row-height" style="background-color:gainsboro">
-            <div id="markdown-content-container">{{ content }}</div>
+            <div id="markdown-content-container">{{ site.pages }}</div>
         </div>
 
         <div class="col-lg-7 row-height" style="background-color:white">
@@ -20,7 +20,11 @@ layout: default
             <hr>
         </div>
         <div class="col-lg-3 row-height" style="background-color:black">
-            <div id="markdown-content-container">{{ content }}</div>
+            <div id="markdown-content-container">
+                {{
+ site.html_pages
+                }}
+            </div>
         </div>
     </div>
     </div>

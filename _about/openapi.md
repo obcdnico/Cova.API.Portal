@@ -6,7 +6,7 @@ permalink: /docs/openapi/
 
 <div class="intrinsic-container">
 
-	<iframe src="/mvd-template/dist/"></iframe>
+	<iframe src="/Cova-API-Portal/dist/"></iframe>
 
 </div>
 

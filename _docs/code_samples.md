@@ -9,7 +9,9 @@ You can start with cURL command line code samples, but you should add samples in
 
 {% assign path = "/token" %}
 {{ site.data.CovaAPIDocumentation.paths[path].post.summary }}
-</br>
+
+
+
 {{ site.data.CovaAPIDocumentation.paths[path].post.tags[0] }}
 
 <!--

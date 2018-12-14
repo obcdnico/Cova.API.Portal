@@ -12,18 +12,15 @@ You can start with cURL command line code samples, but you should add samples in
 
 
 
-{{ site.data.CovaAPIDocumentation.paths[path].post.tags[0] }}
+{{ site.data.CovaAPIDocumentation.paths[path].post.parameters[0].name }}
 
-<!--
-{% for item in site.dist.CovaAPIDocumentation.info %}
-<h3>{{item.version}}</h3>
+
+{% for parameters in site.data.CovaAPIDocumentation.paths[path].post.parameters %}
 <ul>
-{% for entry in item.properties %}
-<li>{{entry.type}}</li>
-{% endfor %}
+<li>{{ site.data.CovaAPIDocumentation.paths[path].post.parameters[forloop.index0].name }}</li>
 </ul>
 {% endfor %}
--->
+
 
 <!--
 <table>

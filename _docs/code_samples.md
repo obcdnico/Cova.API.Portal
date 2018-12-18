@@ -7,21 +7,106 @@ permalink: /docs/code_samples/
 
 You can start with cURL command line code samples, but you should add samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.
 
+
+<!--
 {% assign path = "/token" %}
 {{ site.data.CovaAPIDocumentation.paths[path].post.summary }}
 
-
-
 {{ site.data.CovaAPIDocumentation.paths[path].post.parameters[0].name }}
 
+{{ site.data.CovaAPIDocumentation.paths[0] }}
 
-{% for parameters in site.data.CovaAPIDocumentation.paths[path].post.parameters %}
-<ul>
-<li>{{ site.data.CovaAPIDocumentation.paths[path].post.parameters[forloop.index0].name }}</li>
-</ul>
+{{ site.data.CovaAPIDocumentation.paths[path].post.parameters[0].name }}
+-->
+
+
+{% assign api_categories = "" %}
+{% assign api_categories = "" | split: ',' %}
+
+
+{% for item in site.data.CovaAPIDocumentation.paths %}
+
+{% assign path = item[0] %}
+
+{% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
+  {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
+{% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
+ {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+ {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
+{% else %}
+ {% assign category = "Misc %}
+{% endif %}
+
+{% assign  api_categories =  api_categories | push: category | sort %} 
+
 {% endfor %}
 
 
+{% assign  api_categories =  api_categories | sort %} 
+
+
+{% assign api_category = "" %}
+{% assign api_category = "" | split: ',' %}
+{% assign current_category = "" %}
+
+
+{% for item in api_categories %}
+
+{% if item != current_category %}
+{% assign  api_category =  api_category | push: item | sort %} 
+{% assign current_category = item %}
+{% endif %}
+{% endfor %}
+
+
+
+
+<h1> Grouping </h1>
+
+
+{% for group in api_category %}
+<h3>{{  group }}</h3>
+
+{% for item in site.data.CovaAPIDocumentation.paths %}
+
+{% assign path = item[0] %}
+
+{% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
+  {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
+{% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
+ {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+ {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
+ {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
+{% else %}
+ {% assign category = "Misc %}
+{% endif %}
+
+{% if category == group %}
+<ul>
+<li>{{ path }}</li>
+</ul>
+{% endif %}
+
+{% endfor %}
+{% endfor %}
+
+
+<!--
+
+{% for item in api_category %}
+{{ api_category[forloop.index0] }}
+{{ item }}
+{% for entry in item.subitems %}
+{{ entry }}
+{% endfor %}
+{% endfor %}
+
+-->
 <!--
 <table>
     <thead>

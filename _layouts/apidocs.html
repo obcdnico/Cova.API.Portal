@@ -5,7 +5,83 @@ layout: default
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-2 row-height" style="background-color:gainsboro">
-            <div id="markdown-content-container">{{ site.pages }}</div>
+            <div id="markdown-content-container">
+                <nav>
+                    {% assign api_categories = "" %}
+                    {% assign api_categories = "" | split: ',' %}
+
+
+                    {% for item in site.data.CovaAPIDocumentation.paths %}
+
+                    {% assign path = item[0] %}
+
+                    {% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
+                    {% else %}
+                    {% assign category = "Misc %}
+                    {% endif %}
+                    {% assign  api_categories =  api_categories | push: category | sort %}
+                    {% endfor %}
+
+
+                    {% assign  api_categories =  api_categories | sort %}
+
+
+                    {% assign api_category = "" %}
+                    {% assign api_category = "" | split: ',' %}
+                    {% assign current_category = "" %}
+
+
+                    {% for item in api_categories %}
+
+                    {% if item != current_category %}
+                    {% assign  api_category =  api_category | push: item | sort %}
+                    {% assign current_category = item %}
+                    {% endif %}
+                    {% endfor %}
+
+
+
+
+                    <h1> API Index </h1>
+
+
+                    {% for group in api_category %}
+                    <h3>{{  group }} </h3>
+
+                    {% for item in site.data.CovaAPIDocumentation.paths %}
+
+                    {% assign path = item[0] %}
+
+                    {% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+                    {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
+                    {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
+                    {% else %}
+                    {% assign category = "Misc %}
+                    {% endif %}
+                   <ul>
+                        {% if category == group %}
+
+                        <li>{{ path }}</li>
+
+                        {% endif %}
+                    </ul>
+                        {% endfor %}
+                        {% endfor %}
+
+                </nav>
+            </div>
         </div>
 
         <div class="col-lg-7 row-height" style="background-color:white">
@@ -21,9 +97,21 @@ layout: default
         </div>
         <div class="col-lg-3 row-height" style="background-color:black">
             <div id="markdown-content-container">
-                {{
- site.html_pages
-                }}
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#">Link 1</a></li>
+                        <li>
+                            <a href="#" id="btn-1" data-toggle="collapse" data-target="#submenu1" aria-expanded="false">Link 2 (toggle)</a>
+                            <ul class="nav collapse" id="submenu1" role="menu" aria-labelledby="btn-1">
+                                <li><a href="#">Link 2.1</a></li>
+                                <li><a href="#">Link 2.2</a></li>
+                                <li><a href="#">Link 2.3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>

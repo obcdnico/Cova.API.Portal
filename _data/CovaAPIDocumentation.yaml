@@ -437,7 +437,7 @@ paths:
                 items:
                   $ref: '#/components/schemas/GetAllCatalogItem'
               example:
-              - RmsId: 
+              - RmsId:
                 Slug: M1120207-V3
                 CatalogItemId: a0eff58d-dd54-461f-9118-0046e59a9192
                 CatalogSku: DAM0B3VN
@@ -463,7 +463,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-14T06:23:34.2770000Z
                 DateUpdatedUtc: 2017-11-14T06:23:34.2770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881020
                 CatalogItemId: 1caf6641-6780-4ce1-8bef-00d3fd5bb6ee
                 CatalogSku: DZR4UC3V
@@ -476,7 +476,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T16:54:31.0600000Z
                 DateUpdatedUtc: 2017-11-12T02:11:28.7300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880379-V1
                 CatalogItemId: c1f5b40f-28b5-4ec1-8e4a-011468679137
                 CatalogSku: HC8R3YG5
@@ -541,7 +541,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-05T00:10:46.4230000Z
                 DateUpdatedUtc: 2018-06-05T00:10:46.4230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M886572-V1
                 CatalogItemId: bf6d76c4-62cf-496f-b39a-042c622cea62
                 CatalogSku: G3MLLZMM
@@ -554,7 +554,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-14T22:56:14.6030000Z
                 DateUpdatedUtc: 2017-11-20T17:59:57.5900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162585-V2
                 CatalogItemId: 34a3cd76-ea59-497b-96a3-046a7f0a8376
                 CatalogSku: EB528NF4
@@ -593,7 +593,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-08T21:45:42.1330000Z
                 DateUpdatedUtc: 2018-06-08T21:45:42.3470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021246
                 CatalogItemId: 31374f8d-a46f-4464-99b7-0513f12969b5
                 CatalogSku: 5J0HYBQK
@@ -619,7 +619,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T06:39:15.2570000Z
                 DateUpdatedUtc: 2017-03-11T06:39:15.2570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1059269-V3
                 CatalogItemId: e042a05b-7685-4326-a6da-05b8b16049d3
                 CatalogSku: 0MB6K504
@@ -632,7 +632,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-28T19:15:07.4600000Z
                 DateUpdatedUtc: 2018-06-28T19:15:07.4600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1075754
                 CatalogItemId: 3c5c4cbf-ac76-4d23-b87e-05e9cf81e074
                 CatalogSku: EFDLUV3B
@@ -658,7 +658,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-16T18:13:52.0670000Z
                 DateUpdatedUtc: 2017-05-16T18:13:52.0670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M922046-V1
                 CatalogItemId: c5ff6963-b3b0-4a08-9154-065c09862235
                 CatalogSku: H7G6LV54
@@ -671,7 +671,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T18:46:52.2270000Z
                 DateUpdatedUtc: 2018-02-07T19:31:25.7200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M908750
                 CatalogItemId: 7e80e08f-ea3f-4d12-b84d-06a87e3ece65
                 CatalogSku: W342DV6T
@@ -684,7 +684,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T05:41:45.6870000Z
                 DateUpdatedUtc: 2018-01-09T07:36:32.9470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881172
                 CatalogItemId: ca4d7f63-ffe3-4982-a841-06bc7ce71850
                 CatalogSku: F3PDQYBM
@@ -697,7 +697,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:22:25.1530000Z
                 DateUpdatedUtc: 2017-11-12T02:09:36.0900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M908746
                 CatalogItemId: 2d1acaca-29ec-4364-81b7-0733d009ac71
                 CatalogSku: UMJLVN6W
@@ -775,7 +775,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-02-07T19:31:27.6630000Z
                 DateUpdatedUtc: 2018-02-07T19:31:27.9600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M946890
                 CatalogItemId: 9668fc8e-0bd2-47e0-af36-0865ea9af624
                 CatalogSku: BTVCW8YL
@@ -853,7 +853,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:01:45.2570000Z
                 DateUpdatedUtc: 2018-09-24T23:01:45.6600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882123
                 CatalogItemId: b5c6ca77-bc01-4948-859d-0aeeb0b0b39c
                 CatalogSku: PNXWJ0P8
@@ -879,7 +879,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-03T21:52:56.4230000Z
                 DateUpdatedUtc: 2018-07-03T21:52:56.4230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1083079-V3
                 CatalogItemId: 1d9212c2-334b-4bd2-97d3-0cd8bbd471c1
                 CatalogSku: QPZM0DDG
@@ -892,7 +892,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-01T17:28:40.1670000Z
                 DateUpdatedUtc: 2018-08-01T17:28:40.1670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V6
                 CatalogItemId: 8fd16cc7-4627-4a27-aacd-0dd2f17103a4
                 CatalogSku: QLQWJQ3U
@@ -931,7 +931,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T18:19:29.4900000Z
                 DateUpdatedUtc: 2017-05-24T18:19:29.4900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882137
                 CatalogItemId: fb2fd750-0b89-4135-94b6-0e8a082e457e
                 CatalogSku: MTY64CFH
@@ -957,7 +957,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:01:44.4100000Z
                 DateUpdatedUtc: 2018-09-24T23:01:44.8000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880396
                 CatalogItemId: d89e1191-b5c1-4a0b-9584-0fc3fb3e8c26
                 CatalogSku: 1Q6676Z2
@@ -1009,7 +1009,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:08.1930000Z
                 DateUpdatedUtc: 2017-02-28T21:14:24.3930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625509-V4
                 CatalogItemId: 1ddb41b2-bdf5-4e54-9222-11f4544eb559
                 CatalogSku: 5AEVVF47
@@ -1035,7 +1035,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T20:05:45.9930000Z
                 DateUpdatedUtc: 2018-09-20T20:05:45.9930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073857-V4
                 CatalogItemId: 9eda2e04-0bdc-41d4-8d24-12e270cfac00
                 CatalogSku: V4MPTUG3
@@ -1048,7 +1048,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-19T21:29:04.4730000Z
                 DateUpdatedUtc: 2018-07-19T21:29:04.4730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1175735-V2
                 CatalogItemId: 2c87acdf-f990-42d0-9ec8-135b187d96e3
                 CatalogSku: M6J1WTJ7
@@ -1061,7 +1061,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-04T20:09:40.0730000Z
                 DateUpdatedUtc: 2018-10-04T20:09:40.0730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1148942-V1
                 CatalogItemId: a6e63a21-bfb2-45ea-8466-13a84510f0da
                 CatalogSku: VDWMGMCD
@@ -1074,7 +1074,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-19T17:16:14.3400000Z
                 DateUpdatedUtc: 2018-09-19T17:18:35.6670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1171307-V1
                 CatalogItemId: 93bc6028-7380-47e9-a5a4-14186a19fec0
                 CatalogSku: 3GFEKVPT
@@ -1087,7 +1087,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-01T20:24:05.8170000Z
                 DateUpdatedUtc: 2018-10-01T20:24:05.8170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V5
                 CatalogItemId: 1343f6cf-0d7a-4c43-83a6-142b94ee015f
                 CatalogSku: WZBUQN2Z
@@ -1126,7 +1126,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-17T00:22:57.2730000Z
                 DateUpdatedUtc: 2018-01-17T00:22:57.2730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1176646-V3
                 CatalogItemId: 7750ba16-a250-4691-9f6f-15e180d03e80
                 CatalogSku: M1CZ8N6L
@@ -1152,7 +1152,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T07:06:08.2700000Z
                 DateUpdatedUtc: 2017-03-11T07:06:08.2700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039194-V4
                 CatalogItemId: d415754f-aaf3-4dc4-aadb-161ebe9b9a11
                 CatalogSku: T2F3P2UQ
@@ -1178,7 +1178,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-12T16:56:32.1870000Z
                 DateUpdatedUtc: 2018-06-12T16:56:32.9370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625455
                 CatalogItemId: c8d7c3bb-3f13-4c5c-bd80-16b8e884100c
                 CatalogSku: 5R4TBM14
@@ -1217,7 +1217,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T22:52:55.8900000Z
                 DateUpdatedUtc: 2017-11-10T22:52:55.8900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881167
                 CatalogItemId: d6468520-33e3-44bd-a688-17844205128e
                 CatalogSku: X4FEWU44
@@ -1230,7 +1230,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:17:06.0000000Z
                 DateUpdatedUtc: 2017-11-12T02:09:55.1170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021870-V1
                 CatalogItemId: b9e55f1d-df35-4810-9d7f-185cc3b80799
                 CatalogSku: F1R45DBV
@@ -1282,7 +1282,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T07:00:00.9830000Z
                 DateUpdatedUtc: 2018-03-09T19:14:27.5400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881022
                 CatalogItemId: a8761b18-3846-4c43-99f9-19839166ca72
                 CatalogSku: C3XQQBNK
@@ -1321,7 +1321,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-18T18:16:46.4000000Z
                 DateUpdatedUtc: 2018-05-18T18:16:46.4000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1066996-V1
                 CatalogItemId: 130e464d-c0d7-4b6f-bf23-1a12e66ac49f
                 CatalogSku: XX48JZ3M
@@ -1334,7 +1334,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-10T20:36:10.8970000Z
                 DateUpdatedUtc: 2018-07-10T20:38:58.4800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1004285-V3
                 CatalogItemId: e0e7596f-a604-465d-b37d-1a98c7ffaefa
                 CatalogSku: HHDEE6ZT
@@ -1360,7 +1360,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-19T18:00:10.0130000Z
                 DateUpdatedUtc: 2018-06-19T18:00:10.0130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881179
                 CatalogItemId: 6468aec7-4783-4a21-a00e-1b0dc652cd3a
                 CatalogSku: 2K6XXN6N
@@ -1438,7 +1438,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-17T18:37:26.0200000Z
                 DateUpdatedUtc: 2018-01-17T18:37:26.0200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882107
                 CatalogItemId: 61bd47c5-5202-4829-abc4-1ca8161ce37d
                 CatalogSku: MJJRFKU8
@@ -1451,7 +1451,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T17:52:03.1670000Z
                 DateUpdatedUtc: 2017-11-12T02:08:09.4500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078069-V1
                 CatalogItemId: 6a2bb190-fce4-417f-944e-1cd0487af6e4
                 CatalogSku: CNJQXG7R
@@ -1464,7 +1464,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-25T16:07:42.0100000Z
                 DateUpdatedUtc: 2018-07-25T16:07:42.0100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881141
                 CatalogItemId: fcf05d3e-f984-4248-a757-1daff74c2eb3
                 CatalogSku: KTPAAZJM
@@ -1581,7 +1581,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T06:46:42.9230000Z
                 DateUpdatedUtc: 2017-03-11T06:46:42.9230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1024707-V1
                 CatalogItemId: f37cc8c9-d8ea-4902-a0d5-20f1a9eb1443
                 CatalogSku: 65MB73DU
@@ -1620,7 +1620,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T17:34:08.0630000Z
                 DateUpdatedUtc: 2017-03-11T17:34:08.0630000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061662-V4
                 CatalogItemId: 3c90cfca-b07c-46c5-92e7-21f18e6b9ce2
                 CatalogSku: HWE3C15V
@@ -1685,7 +1685,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-24T05:00:19.5830000Z
                 DateUpdatedUtc: 2017-10-24T05:00:19.5830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1077531-V4
                 CatalogItemId: b24a0ad4-d038-4dad-b77c-23bebc9baf41
                 CatalogSku: 3502WVAV
@@ -1711,7 +1711,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-08T21:45:39.6000000Z
                 DateUpdatedUtc: 2018-06-08T21:45:40.0530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073857-V3
                 CatalogItemId: fe000cc4-39d6-4dfb-b748-23ebdf866e81
                 CatalogSku: GJEBA2AZ
@@ -1789,7 +1789,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-11T21:24:38.1500000Z
                 DateUpdatedUtc: 2018-09-11T21:27:19.9270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1004285-V1
                 CatalogItemId: 1e37ceaf-fcdf-4103-9bbf-24f557f79a8c
                 CatalogSku: TKM7VLBM
@@ -1802,7 +1802,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-04-20T18:11:11.7500000Z
                 DateUpdatedUtc: 2018-04-20T18:29:56.3770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039206
                 CatalogItemId: 2b960b9f-3a04-49f1-8a04-256f877dc3bf
                 CatalogSku: 6HYH1VR4
@@ -1880,7 +1880,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-03-07T22:12:45.2330000Z
                 DateUpdatedUtc: 2018-03-07T22:12:46.2770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1007394-V4
                 CatalogItemId: 3bfd610f-971e-43b1-a513-2920a3e8a40e
                 CatalogSku: TQRD65LZ
@@ -1906,7 +1906,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:01:50.6630000Z
                 DateUpdatedUtc: 2018-09-24T23:01:51.0370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882085
                 CatalogItemId: 9a5170d3-0679-4bc2-9287-29d115a49867
                 CatalogSku: GNYHV3Y1
@@ -1919,7 +1919,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T17:34:20.8100000Z
                 DateUpdatedUtc: 2017-11-12T02:08:56.1330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881171
                 CatalogItemId: 3832138e-1383-4c07-b259-2a5b445fe352
                 CatalogSku: 4TJHN8F2
@@ -1932,7 +1932,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:20:51.8370000Z
                 DateUpdatedUtc: 2017-11-12T02:09:42.4000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039194-V5
                 CatalogItemId: 1a0ce047-b3f8-4249-a804-2aab4e4e27e8
                 CatalogSku: D035EZJJ
@@ -1958,7 +1958,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-22T00:17:54.8500000Z
                 DateUpdatedUtc: 2018-05-22T00:17:54.8500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V4
                 CatalogItemId: 328373e7-7674-4020-8e93-2b132a239ff4
                 CatalogSku: 604F7KHR
@@ -1971,7 +1971,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-30T23:58:09.0170000Z
                 DateUpdatedUtc: 2018-07-30T23:58:09.0170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1179420-V3
                 CatalogItemId: 287c3b73-da21-422a-9ce0-2b65044260ab
                 CatalogSku: K375022E
@@ -1997,7 +1997,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-28T21:41:24.0000000Z
                 DateUpdatedUtc: 2018-06-28T21:41:24.0000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1027091-V3
                 CatalogItemId: bd12cc44-1bf2-4c93-a410-2be73ac2bc08
                 CatalogSku: UXUA7DJ8
@@ -2010,7 +2010,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T18:10:26.0270000Z
                 DateUpdatedUtc: 2018-05-28T21:28:50.7170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093622-V4
                 CatalogItemId: 5616fc7d-1848-4594-b427-2c16734744e9
                 CatalogSku: Y6RPF8L4
@@ -2062,7 +2062,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-21T19:45:09.8200000Z
                 DateUpdatedUtc: 2018-05-21T19:45:09.8200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1165600-V2
                 CatalogItemId: dab89e65-f23d-4c24-840c-2e45891ae750
                 CatalogSku: DGBJXY1R
@@ -2088,7 +2088,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T20:17:02.0070000Z
                 DateUpdatedUtc: 2017-02-28T20:44:47.8800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V2
                 CatalogItemId: 23242f33-2453-4c49-a863-2f0605d5b48e
                 CatalogSku: AFGDMYUE
@@ -2114,7 +2114,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T22:12:54.5470000Z
                 DateUpdatedUtc: 2017-05-24T22:12:54.5470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M620620
                 CatalogItemId: f0e45cc1-0427-4133-906c-2fbfc89f0af7
                 CatalogSku: 63TAK8MK
@@ -2140,7 +2140,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-08T18:32:25.5800000Z
                 DateUpdatedUtc: 2017-05-08T18:32:25.5800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174419-V1
                 CatalogItemId: 95ddc6f3-cb95-4994-a4dc-303eb9d0e01d
                 CatalogSku: VQ1VH5XN
@@ -2153,7 +2153,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-03T18:09:30.4530000Z
                 DateUpdatedUtc: 2018-10-03T18:09:30.4530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039194-V1
                 CatalogItemId: 636b6631-179c-4945-9e48-306257fc72a3
                 CatalogSku: 1HXMRU6Q
@@ -2166,7 +2166,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-07T21:11:52.3330000Z
                 DateUpdatedUtc: 2018-06-07T21:11:52.3330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155784-V3
                 CatalogItemId: 5798a6f3-f6b8-427b-ad7c-30a76b8c1de9
                 CatalogSku: 1ZCCMD56
@@ -2192,7 +2192,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-28T21:28:10.6830000Z
                 DateUpdatedUtc: 2018-05-31T22:14:57.6770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V1
                 CatalogItemId: c3b2a8d5-9d40-4bf4-a7b7-318f6e4b5240
                 CatalogSku: 14HX21EL
@@ -2205,7 +2205,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-30T23:58:06.6470000Z
                 DateUpdatedUtc: 2018-07-30T23:58:06.6470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1120207-V1
                 CatalogItemId: 311fdc44-1715-4ffa-86b8-31d103e90289
                 CatalogSku: DVFF6UAE
@@ -2270,7 +2270,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-21T15:05:01.3900000Z
                 DateUpdatedUtc: 2018-09-21T15:05:01.3900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042127-V1
                 CatalogItemId: cdf6486c-e067-429a-ab48-3515d2c819bb
                 CatalogSku: ET0MZMPR
@@ -2283,7 +2283,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T22:39:14.5730000Z
                 DateUpdatedUtc: 2018-06-11T22:39:14.5730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882064-V2
                 CatalogItemId: a780c460-4e8c-4900-9691-355f3b37644f
                 CatalogSku: RYK8YLUV
@@ -2296,7 +2296,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:24:23.4700000Z
                 DateUpdatedUtc: 2018-08-10T19:38:12.5700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073852-V2
                 CatalogItemId: 6cbf8791-0ed7-493a-b2de-356dd6e163ad
                 CatalogSku: BMV8FVVU
@@ -2335,7 +2335,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T06:46:41.3430000Z
                 DateUpdatedUtc: 2017-03-11T06:46:41.3430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1004285-V2
                 CatalogItemId: 5919c47c-6a54-4325-8c16-37784a0122a8
                 CatalogSku: 8GHWZGCM
@@ -2361,7 +2361,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:08.4570000Z
                 DateUpdatedUtc: 2017-02-28T21:16:33.3770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M764671
                 CatalogItemId: 966a59fd-7614-4c60-8aac-387a0b735ec2
                 CatalogSku: CQQ534B2
@@ -2374,7 +2374,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-07-24T17:47:06.2770000Z
                 DateUpdatedUtc: 2017-07-24T17:47:06.2770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1020743
                 CatalogItemId: 20e4bc2b-5fed-4beb-8acb-39745d6542c0
                 CatalogSku: ZL5PG7D2
@@ -2387,7 +2387,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-15T23:07:16.3400000Z
                 DateUpdatedUtc: 2018-05-15T23:07:16.3400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1053622-V1
                 CatalogItemId: c0799fcb-3be3-4406-9f6e-3b1fabe8b9b1
                 CatalogSku: 0FXMGJ24
@@ -2400,7 +2400,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-25T20:37:51.9700000Z
                 DateUpdatedUtc: 2018-06-25T20:37:51.9700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1041083-V1
                 CatalogItemId: 7008696d-c736-4c63-a43e-3b34472c5bc1
                 CatalogSku: QGKLBEJL
@@ -2413,7 +2413,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-08T21:34:33.3400000Z
                 DateUpdatedUtc: 2018-06-08T21:45:39.3670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V7
                 CatalogItemId: 4e5820c3-066c-4110-8ab0-3b464d168ece
                 CatalogSku: VLUD3RQN
@@ -2439,7 +2439,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-25T20:50:34.9100000Z
                 DateUpdatedUtc: 2018-06-25T20:50:34.9100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1153109-V1
                 CatalogItemId: f4366996-5569-488e-8591-3bff59e948b2
                 CatalogSku: B0R11V07
@@ -2465,7 +2465,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-12-21T18:21:08.8730000Z
                 DateUpdatedUtc: 2017-12-21T18:21:08.8730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882113
                 CatalogItemId: 8c3fa97e-17a0-40b7-b05b-3c7488756c28
                 CatalogSku: VTA7W73P
@@ -2504,7 +2504,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-16T17:56:16.8770000Z
                 DateUpdatedUtc: 2017-05-16T17:56:16.8770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162602-V2
                 CatalogItemId: 7e7f5be7-13cf-49e2-b14b-3e4f81686241
                 CatalogSku: 2JAWAX5B
@@ -2517,7 +2517,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-26T18:58:43.7400000Z
                 DateUpdatedUtc: 2018-09-26T18:58:43.7400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061647-V1
                 CatalogItemId: b2887033-b000-43e4-ab32-3e800915db3f
                 CatalogSku: 3710W4WQ
@@ -2621,7 +2621,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T07:29:01.8570000Z
                 DateUpdatedUtc: 2018-01-09T07:29:01.8570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162585-V1
                 CatalogItemId: 9bf53a01-73a4-4db8-bd73-412befc3cec3
                 CatalogSku: VA3YZL4D
@@ -2634,7 +2634,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-26T18:46:28.5270000Z
                 DateUpdatedUtc: 2018-09-26T18:46:28.5270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1154465-V1
                 CatalogItemId: 0cf2ca77-bf7e-4dff-a8da-42cc5f0fdf80
                 CatalogSku: F3CEKAMN
@@ -2647,7 +2647,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T21:24:40.1230000Z
                 DateUpdatedUtc: 2018-09-20T21:24:40.1230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881148
                 CatalogItemId: 5c1bc4dc-5ac0-40a8-8f00-44920c10bc8d
                 CatalogSku: 5516F515
@@ -2660,7 +2660,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:00:33.4200000Z
                 DateUpdatedUtc: 2017-11-12T02:10:21.5930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1007394-V5
                 CatalogItemId: 22e136a4-2f6b-491c-9a57-452fec1537dc
                 CatalogSku: 2YLM5NU0
@@ -2764,7 +2764,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-04-24T20:54:58.6900000Z
                 DateUpdatedUtc: 2018-09-20T18:39:06.2730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1077531-V3
                 CatalogItemId: 40d216a4-f8da-4d7b-9046-4a005e93acf7
                 CatalogSku: DLEARQZN
@@ -2777,7 +2777,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-24T20:07:03.9500000Z
                 DateUpdatedUtc: 2018-07-24T20:07:03.9500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V3
                 CatalogItemId: 85b00c7d-302c-4e00-a2af-4adf0f36a55e
                 CatalogSku: DJKR8CKV
@@ -2803,7 +2803,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T17:14:42.4470000Z
                 DateUpdatedUtc: 2017-03-11T17:14:42.4470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061662-V2
                 CatalogItemId: 7fac529e-a6e9-45ae-b0f7-4bc9b65393e3
                 CatalogSku: PK1NLY68
@@ -2816,7 +2816,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:32:20.6700000Z
                 DateUpdatedUtc: 2018-07-02T19:32:20.6700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1171307-V2
                 CatalogItemId: b28f7cbd-6dff-432b-bc44-4bd0192c9ced
                 CatalogSku: K5PNTRRH
@@ -2842,7 +2842,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-12-29T03:07:31.4930000Z
                 DateUpdatedUtc: 2017-12-29T03:07:31.4930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162585-V3
                 CatalogItemId: b13a89af-46b7-4f8e-a976-4c4ca982187f
                 CatalogSku: WL76R1G5
@@ -2855,7 +2855,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-26T18:46:30.3830000Z
                 DateUpdatedUtc: 2018-09-26T18:46:30.3830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162558-V2
                 CatalogItemId: 4e26f95a-dcde-4001-a717-4d1bf9939200
                 CatalogSku: KUXHGAZJ
@@ -2868,7 +2868,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-26T18:31:56.6000000Z
                 DateUpdatedUtc: 2018-09-26T18:31:56.6000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073852-V3
                 CatalogItemId: ba79bc03-77c8-473b-9ed4-4d375c1518c9
                 CatalogSku: FLD4Q2QV
@@ -2881,7 +2881,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-19T21:20:19.5700000Z
                 DateUpdatedUtc: 2018-07-19T21:20:19.5700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881169
                 CatalogItemId: ee7405f0-241b-44b7-baa3-4d5259d504ac
                 CatalogSku: 4DBR18NP
@@ -2920,7 +2920,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T22:34:37.2300000Z
                 DateUpdatedUtc: 2017-02-28T22:34:37.2300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042127-V2
                 CatalogItemId: 4e78a568-6df7-43b9-ac80-4dc79c7c733a
                 CatalogSku: 0AAYXNNC
@@ -2959,7 +2959,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:59:39.4630000Z
                 DateUpdatedUtc: 2018-09-24T22:59:39.8770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1177275-V1
                 CatalogItemId: c6c142aa-095e-479f-8034-50338c05ce8f
                 CatalogSku: LVEKQ0TP
@@ -2972,7 +2972,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-05T23:15:52.4370000Z
                 DateUpdatedUtc: 2018-10-05T23:15:52.4370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881150
                 CatalogItemId: caf25e51-fc6e-4cd6-a5d6-503ec2c33d44
                 CatalogSku: MVWKEJ5E
@@ -3024,7 +3024,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:07.8970000Z
                 DateUpdatedUtc: 2017-02-28T21:13:39.5300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M844790
                 CatalogItemId: 291317b1-62b3-4734-8162-51331744047a
                 CatalogSku: EHY2NZCP
@@ -3037,7 +3037,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-05T22:51:19.0900000Z
                 DateUpdatedUtc: 2017-10-05T22:51:19.0900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1154465-V2
                 CatalogItemId: 9cb709d0-1451-47a2-bc9c-515546e5791f
                 CatalogSku: L7FY0MEZ
@@ -3076,7 +3076,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T06:49:34.7700000Z
                 DateUpdatedUtc: 2018-01-09T06:49:34.7700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882093
                 CatalogItemId: 6e1cda94-a959-4245-b552-529e1ce2ca6c
                 CatalogSku: T36HAWBZ
@@ -3089,7 +3089,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T17:38:41.7170000Z
                 DateUpdatedUtc: 2017-11-12T02:08:43.1570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039194-V2
                 CatalogItemId: 829da4f2-a989-4642-bd17-52d0b8c97f1a
                 CatalogSku: QEXVALLN
@@ -3128,7 +3128,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T18:31:50.2600000Z
                 DateUpdatedUtc: 2017-05-24T18:31:50.2600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078243-V1
                 CatalogItemId: fc897c2a-89e6-404c-8186-53e5914fc582
                 CatalogSku: PYT67BEQ
@@ -3141,7 +3141,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-25T16:13:35.8770000Z
                 DateUpdatedUtc: 2018-07-25T16:13:35.8770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042952
                 CatalogItemId: 5a908f16-8553-4648-b9c7-543c332706c4
                 CatalogSku: GBDDEHW4
@@ -3167,7 +3167,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-03T22:09:07.8130000Z
                 DateUpdatedUtc: 2018-10-03T22:18:41.3700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V3
                 CatalogItemId: 8b32523e-1bc1-45d1-81ff-555d1831ed1e
                 CatalogSku: W7TUQXTV
@@ -3193,7 +3193,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-16T17:56:16.5470000Z
                 DateUpdatedUtc: 2017-05-16T17:56:16.5470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880394
                 CatalogItemId: f98ab9bb-6da9-46d6-af82-55dfe29b8b1f
                 CatalogSku: 8RCJAHR3
@@ -3219,7 +3219,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T20:17:02.1570000Z
                 DateUpdatedUtc: 2017-02-28T20:50:45.3100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882122
                 CatalogItemId: bd7f14c1-b232-453f-8b0c-574482001a72
                 CatalogSku: YFLBW48C
@@ -3245,7 +3245,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T06:14:55.6230000Z
                 DateUpdatedUtc: 2018-01-09T06:14:55.6230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093622-V2
                 CatalogItemId: cc58f928-28ca-4eb3-8316-5801603dd349
                 CatalogSku: DK0CJBUL
@@ -3271,7 +3271,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T20:28:06.6630000Z
                 DateUpdatedUtc: 2017-06-05T19:08:52.9500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V6
                 CatalogItemId: 6f592ec2-2358-47e9-aaad-58e660a03035
                 CatalogSku: HHRRZHX2
@@ -3297,7 +3297,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-26T19:47:56.8100000Z
                 DateUpdatedUtc: 2018-07-13T17:53:41.5600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1053622-V2
                 CatalogItemId: 0b2795b3-aa85-4027-9dd6-5947510b7d4f
                 CatalogSku: A1TYQFLX
@@ -3323,7 +3323,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-23T16:24:05.1100000Z
                 DateUpdatedUtc: 2018-05-23T16:24:05.1100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880379-V2
                 CatalogItemId: 09956751-63f8-4dfc-b674-5b0b491e2214
                 CatalogSku: TFBVTNQZ
@@ -3414,7 +3414,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T07:02:46.9400000Z
                 DateUpdatedUtc: 2017-03-11T07:02:46.9400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881144
                 CatalogItemId: 5284dfc4-1500-46d8-881b-5cd9f8eeea78
                 CatalogSku: 4BVMF6L3
@@ -3440,7 +3440,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-05T00:02:27.9330000Z
                 DateUpdatedUtc: 2018-06-05T00:02:28.3530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1154465-V4
                 CatalogItemId: ea6bb638-18a3-49bb-8dc0-5df8dc14db4c
                 CatalogSku: 8NFTRPH5
@@ -3453,7 +3453,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T21:24:47.7170000Z
                 DateUpdatedUtc: 2018-09-20T21:24:47.7170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V2
                 CatalogItemId: 5ea74185-0339-4194-bb2a-5e3b683b7efb
                 CatalogSku: KD2WFERZ
@@ -3466,7 +3466,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:58:46.6400000Z
                 DateUpdatedUtc: 2018-09-24T22:58:46.6400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V3
                 CatalogItemId: 6e8c95cb-0bbb-49f8-a5c3-5e57a96d89fe
                 CatalogSku: DPKMZDF1
@@ -3479,7 +3479,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-30T23:58:08.3170000Z
                 DateUpdatedUtc: 2018-07-30T23:58:08.3170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1153109-V2
                 CatalogItemId: 8d7a0c86-60b1-4c7d-95ee-5f753db167b2
                 CatalogSku: H08LYYFH
@@ -3492,7 +3492,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T18:01:19.9700000Z
                 DateUpdatedUtc: 2018-09-20T18:09:52.2300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1007394-V1
                 CatalogItemId: f97c4208-26b1-443a-a5e1-5fb1580993cd
                 CatalogSku: BYTBYE54
@@ -3557,7 +3557,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-24T00:53:15.1470000Z
                 DateUpdatedUtc: 2018-08-24T00:53:15.1470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882128
                 CatalogItemId: 3b240538-79c2-4429-bdc0-60db2d018236
                 CatalogSku: ZA3E5FD0
@@ -3583,7 +3583,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:00:48.5470000Z
                 DateUpdatedUtc: 2018-09-24T23:00:48.9400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073852-V1
                 CatalogItemId: a912ec84-60d8-4133-8701-6166bdb72504
                 CatalogSku: KHJCCRG3
@@ -3635,7 +3635,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-10T22:18:12.6470000Z
                 DateUpdatedUtc: 2017-05-10T22:18:12.6470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1153109-V3
                 CatalogItemId: df6ea8e3-a938-43c3-99dc-6323b66c033c
                 CatalogSku: KLJ4CCQG
@@ -3674,7 +3674,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-27T19:41:30.2930000Z
                 DateUpdatedUtc: 2018-06-27T19:41:32.3570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174540-V1
                 CatalogItemId: 251fe896-df1d-41f5-8aaa-649921007d3c
                 CatalogSku: 6BXG6ZGG
@@ -3687,7 +3687,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-03T19:02:24.2100000Z
                 DateUpdatedUtc: 2018-10-03T19:02:24.2100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625509-V3-E94447
                 CatalogItemId: 480bf271-5972-4ac1-abed-64a9968f8210
                 CatalogSku: MEQUUTZR
@@ -3765,7 +3765,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-12-21T23:57:46.8270000Z
                 DateUpdatedUtc: 2017-12-21T23:57:46.8270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M946049
                 CatalogItemId: f85e1f3c-de88-4c31-bee2-67ac3666a85e
                 CatalogSku: T4KKP1DE
@@ -3778,7 +3778,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-03-08T22:48:20.5530000Z
                 DateUpdatedUtc: 2018-03-08T22:48:20.5530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1066326-V2
                 CatalogItemId: 682c81f1-93fc-4400-9f71-67bfb6e762ce
                 CatalogSku: Z1CV3XQ6
@@ -3804,7 +3804,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T22:59:12.5330000Z
                 DateUpdatedUtc: 2018-06-11T22:59:12.5330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1027091-V1
                 CatalogItemId: 245bd392-a61c-4104-939b-695e71a38d08
                 CatalogSku: N15W37HK
@@ -3817,7 +3817,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T19:05:07.8500000Z
                 DateUpdatedUtc: 2018-05-28T21:28:10.4800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1024707-V5
                 CatalogItemId: 5611bcd5-5796-49ca-9d3f-6a07f3de6156
                 CatalogSku: R3UPE4G1
@@ -3830,7 +3830,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-23T16:16:33.9870000Z
                 DateUpdatedUtc: 2018-05-23T16:16:33.9870000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880374
                 CatalogItemId: 968500fd-eac1-40d9-a5d4-6a2cbcb4f23d
                 CatalogSku: 5NMT060Z
@@ -3843,7 +3843,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-08T20:59:11.3670000Z
                 DateUpdatedUtc: 2017-11-12T01:20:26.1170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882104
                 CatalogItemId: 4ee4767a-7282-4605-b0a8-6a484a4fc211
                 CatalogSku: V41LN0MZ
@@ -3869,7 +3869,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-10T21:54:56.8270000Z
                 DateUpdatedUtc: 2018-09-11T21:27:19.8630000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1007394-V2
                 CatalogItemId: 798a235e-54f6-41d6-a4cd-6a815221d713
                 CatalogSku: XCVMJ56Y
@@ -3921,7 +3921,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:08.0070000Z
                 DateUpdatedUtc: 2017-02-28T21:18:32.7170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V4
                 CatalogItemId: 9802552f-54ed-4f32-ab2a-6cebd383674d
                 CatalogSku: ELYTGK7T
@@ -3934,7 +3934,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-09T22:10:35.6400000Z
                 DateUpdatedUtc: 2018-08-09T22:10:35.6400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073857-V1
                 CatalogItemId: d3e913c9-c6ca-4ec3-8104-6d5ef07c61a4
                 CatalogSku: B476JGAQ
@@ -3947,7 +3947,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-19T21:28:59.6930000Z
                 DateUpdatedUtc: 2018-07-19T21:28:59.6930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882134
                 CatalogItemId: 415b6961-2bbb-4e3f-ab44-6dfd07e7e822
                 CatalogSku: V367WQ3L
@@ -3960,7 +3960,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T18:13:13.7230000Z
                 DateUpdatedUtc: 2017-11-12T02:05:58.5700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078243-V3
                 CatalogItemId: 12465287-fd7a-4676-abb9-6e0c835643cf
                 CatalogSku: 5A0U7N5R
@@ -3999,7 +3999,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T17:14:43.2600000Z
                 DateUpdatedUtc: 2017-03-11T17:14:43.2600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1004285-V4
                 CatalogItemId: 02a4e2ad-3ac3-4763-929a-6f2c781964cd
                 CatalogSku: G6JC4M4M
@@ -4012,7 +4012,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-04-20T18:11:13.6700000Z
                 DateUpdatedUtc: 2018-04-20T18:29:56.3770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1052876
                 CatalogItemId: bf924fc6-e935-4b4a-921a-6f64328996e5
                 CatalogSku: XQPUMRPW
@@ -4025,7 +4025,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-22T20:53:25.4170000Z
                 DateUpdatedUtc: 2018-06-22T20:53:25.4170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1179420-V4
                 CatalogItemId: 236ab80b-8d39-4acb-8b1f-6fba8d8b20cc
                 CatalogSku: A26RJA4Z
@@ -4051,7 +4051,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:33:33.6930000Z
                 DateUpdatedUtc: 2018-07-02T19:33:33.6930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M908751
                 CatalogItemId: a3e7361f-7eaf-494f-bd2f-6fe46131c235
                 CatalogSku: 6684W0F4
@@ -4064,7 +4064,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T05:42:33.4670000Z
                 DateUpdatedUtc: 2018-01-09T07:36:10.8570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M908748
                 CatalogItemId: 4be139ad-5bd0-4695-932c-706b0398459f
                 CatalogSku: 1MCUXZ3E
@@ -4090,7 +4090,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-24T20:26:00.6230000Z
                 DateUpdatedUtc: 2018-07-24T20:26:00.6230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1086619-V1
                 CatalogItemId: e65d2b59-564d-4f29-85b6-70eb272b3033
                 CatalogSku: R7PZEERH
@@ -4116,7 +4116,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-04T16:40:28.9570000Z
                 DateUpdatedUtc: 2018-05-05T20:08:37.8900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881003
                 CatalogItemId: 2c3800d6-9901-40d4-8d3f-731e77f61f30
                 CatalogSku: 5A12E1X7
@@ -4155,7 +4155,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-30T19:44:35.2330000Z
                 DateUpdatedUtc: 2018-07-30T19:44:35.2330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155989-V2
                 CatalogItemId: 374b9012-f495-4b2d-ba15-76229699cebe
                 CatalogSku: 6CWFQPMT
@@ -4220,7 +4220,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-14T06:23:59.5930000Z
                 DateUpdatedUtc: 2017-11-14T06:23:59.5930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061647-V3
                 CatalogItemId: ac91bac8-6a96-4b72-ba37-78cde3424ce9
                 CatalogSku: P2DDGA1B
@@ -4259,7 +4259,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-25T18:17:49.0200000Z
                 DateUpdatedUtc: 2017-05-25T18:17:49.0200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162602-V1
                 CatalogItemId: c6a43973-b184-4304-97d4-79cdd0a103cb
                 CatalogSku: UDLBT5XA
@@ -4298,7 +4298,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T20:17:02.1000000Z
                 DateUpdatedUtc: 2017-02-28T20:42:56.7270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061662-V3
                 CatalogItemId: f2c2eb22-d404-4b8e-b8f0-7acf02231e3e
                 CatalogSku: 4H5YG7D4
@@ -4311,7 +4311,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:32:31.0430000Z
                 DateUpdatedUtc: 2018-07-02T19:32:31.0430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M621751
                 CatalogItemId: 44fa3608-21d9-4f90-b767-7b049d034149
                 CatalogSku: UZ7JDVGA
@@ -4324,7 +4324,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-12T20:44:22.6070000Z
                 DateUpdatedUtc: 2017-03-12T20:44:22.6070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1171307-V3
                 CatalogItemId: 1cf8deac-ac17-4475-ab93-7b0652460039
                 CatalogSku: JYBK6731
@@ -4350,7 +4350,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-25T16:16:29.1100000Z
                 DateUpdatedUtc: 2018-09-25T16:16:41.6770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949152
                 CatalogItemId: cf27aa17-e186-49b3-a066-7b4bc686eb68
                 CatalogSku: RC5NL8YK
@@ -4454,7 +4454,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-22T20:49:08.4530000Z
                 DateUpdatedUtc: 2018-05-22T20:49:08.4530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M877161
                 CatalogItemId: 8a2cd8f1-2e64-4227-80df-7d89bd12dde8
                 CatalogSku: KYJB71Y8
@@ -4467,7 +4467,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-03T05:19:53.9400000Z
                 DateUpdatedUtc: 2017-12-07T03:57:59.5570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882102
                 CatalogItemId: 54a99c62-0b3f-496b-939c-7da1e22df37a
                 CatalogSku: 165FBC84
@@ -4493,7 +4493,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:26:14.4470000Z
                 DateUpdatedUtc: 2018-07-05T19:26:14.4470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042939-V2
                 CatalogItemId: 2d1120fc-b9b8-48cf-b147-7ed20345ff48
                 CatalogSku: 6KCWTRMT
@@ -4506,7 +4506,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-13T16:08:39.6670000Z
                 DateUpdatedUtc: 2018-06-13T16:08:39.6670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882125
                 CatalogItemId: f29a601b-e7ae-4154-b657-7f503bca39e0
                 CatalogSku: TW542PNE
@@ -4519,7 +4519,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T18:05:24.8330000Z
                 DateUpdatedUtc: 2017-11-12T02:07:14.9530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155784-V2
                 CatalogItemId: ccea8a03-a4f7-468d-82de-7f77338d1630
                 CatalogSku: YF7E8CN7
@@ -4610,7 +4610,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-10T16:43:39.7300000Z
                 DateUpdatedUtc: 2018-07-10T16:43:39.7300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M952945
                 CatalogItemId: 59fe1467-0331-4454-84aa-81c2b685822d
                 CatalogSku: VXGLCHTT
@@ -4636,7 +4636,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T06:39:07.9930000Z
                 DateUpdatedUtc: 2018-01-09T06:39:07.9930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174540-V3
                 CatalogItemId: fc9ef779-6bb0-493b-927c-833944712fee
                 CatalogSku: 54GBXXNP
@@ -4688,7 +4688,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-11T18:36:03.0600000Z
                 DateUpdatedUtc: 2018-01-11T18:36:03.0600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949137-V1
                 CatalogItemId: 128f0412-6e76-4109-8797-8488f6e0779e
                 CatalogSku: GRKJ54FJ
@@ -4714,7 +4714,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-04-20T20:12:53.4300000Z
                 DateUpdatedUtc: 2017-04-20T20:14:10.8030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1081826-V2
                 CatalogItemId: ae9d0085-0f99-45bb-baec-84d664f0e90b
                 CatalogSku: KM2XT2M0
@@ -4727,7 +4727,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-30T23:58:07.7730000Z
                 DateUpdatedUtc: 2018-07-30T23:58:07.7730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1173561-V2
                 CatalogItemId: 8a1d6f4c-c0c0-41bc-ad8c-852a12489b59
                 CatalogSku: E72QQ6MX
@@ -4740,7 +4740,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-02T21:00:18.5570000Z
                 DateUpdatedUtc: 2018-10-02T21:00:18.5570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M908752
                 CatalogItemId: 41fff09d-094a-4e5a-a4cc-85eeea2ffcd1
                 CatalogSku: CZ2AR21V
@@ -4766,7 +4766,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:00:50.3300000Z
                 DateUpdatedUtc: 2018-09-24T23:00:50.7200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1024707-V3
                 CatalogItemId: 2ef69db3-4ea6-4af0-bfd2-86cff128ead7
                 CatalogSku: ZBMGYYAC
@@ -4857,7 +4857,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-24T20:26:00.6230000Z
                 DateUpdatedUtc: 2018-07-24T20:26:00.6230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042939-V3
                 CatalogItemId: 8522ae5c-a4ce-4739-a7ef-891fdff8655b
                 CatalogSku: M747TAYD
@@ -4896,7 +4896,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-13T16:17:01.8430000Z
                 DateUpdatedUtc: 2018-10-01T18:36:13.5970000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042127-V5
                 CatalogItemId: c12c5d16-9d7e-4837-bfca-89ca2030ce85
                 CatalogSku: KKEB1FFD
@@ -4948,7 +4948,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-16T18:22:51.7370000Z
                 DateUpdatedUtc: 2017-05-16T18:22:51.7370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881146-V1
                 CatalogItemId: e3357fc0-c912-4f3e-9dbd-8ac8afa30d42
                 CatalogSku: FWYCCAMY
@@ -4987,7 +4987,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:05:08.7870000Z
                 DateUpdatedUtc: 2018-09-24T23:05:09.1830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881131
                 CatalogItemId: b9a5c0b4-480c-4f25-9298-8c6a0a0a6f4e
                 CatalogSku: 5KAQ5H6F
@@ -5013,7 +5013,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T23:44:35.8330000Z
                 DateUpdatedUtc: 2017-02-28T23:44:35.8330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882089
                 CatalogItemId: a889e3d5-59b4-40cc-9d31-8d8e615285b0
                 CatalogSku: BJAZKTT3
@@ -5182,7 +5182,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-08T18:42:59.3370000Z
                 DateUpdatedUtc: 2018-05-08T18:42:59.3370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021870-V5
                 CatalogItemId: a6a3a91d-6170-45c9-86e0-928ebdd8b0d6
                 CatalogSku: AUQR6GCK
@@ -5195,7 +5195,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-17T19:28:22.7600000Z
                 DateUpdatedUtc: 2018-05-17T19:28:22.7600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M760130-V1
                 CatalogItemId: 2eb8d7ba-e9aa-418e-a16c-92a2a1990ffb
                 CatalogSku: J2VVGCMX
@@ -5208,7 +5208,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-07-12T03:20:25.8400000Z
                 DateUpdatedUtc: 2017-07-12T03:20:25.8400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1064495-V1
                 CatalogItemId: 28f07f26-b928-486e-b76a-9340953c26a2
                 CatalogSku: PN0T0RC8
@@ -5221,7 +5221,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:19:08.7770000Z
                 DateUpdatedUtc: 2018-07-05T19:19:08.7770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625509-V4-E94447
                 CatalogItemId: 41f04dbd-524f-4f96-8e71-94de11f64839
                 CatalogSku: G1L38XYM
@@ -5247,7 +5247,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T23:59:22.6470000Z
                 DateUpdatedUtc: 2018-09-17T23:09:45.7700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1092095
                 CatalogItemId: 30f78f35-f3e9-47d1-906b-95af20a54b40
                 CatalogSku: J00VN3XL
@@ -5260,7 +5260,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-08T20:23:35.3770000Z
                 DateUpdatedUtc: 2018-08-10T20:12:54.5970000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M765721
                 CatalogItemId: d9580d67-fa2f-4c8c-84ad-95be816b3704
                 CatalogSku: WR7YPCV4
@@ -5273,7 +5273,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-07-26T17:40:21.1100000Z
                 DateUpdatedUtc: 2017-07-26T17:40:21.1100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949137-V3
                 CatalogItemId: db17bbcc-b2c1-4147-ba18-95e5fca0fc4d
                 CatalogSku: 1JW3MLTC
@@ -5286,7 +5286,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-03-14T16:12:10.4270000Z
                 DateUpdatedUtc: 2018-03-14T16:12:10.4270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882055
                 CatalogItemId: 8ab04806-7342-472d-828f-9606b40fba07
                 CatalogSku: 0C2427CR
@@ -5312,7 +5312,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T07:00:41.8770000Z
                 DateUpdatedUtc: 2017-03-11T07:00:41.8770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1064495-V2
                 CatalogItemId: 56f5811a-09af-48df-a3e6-9632a314d184
                 CatalogSku: PYJVD2GM
@@ -5325,7 +5325,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:19:09.7770000Z
                 DateUpdatedUtc: 2018-07-05T19:19:09.7770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1035939-V1
                 CatalogItemId: 0639686d-aa64-469e-9d15-967d1687c3f2
                 CatalogSku: H2RJJDVW
@@ -5338,7 +5338,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-04T23:59:53.0870000Z
                 DateUpdatedUtc: 2018-06-04T23:59:53.0870000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881017
                 CatalogItemId: d6e7a2ac-3bcc-4bb8-a9ed-96b3a25530c4
                 CatalogSku: AK0PCJZ1
@@ -5351,7 +5351,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T16:53:40.4030000Z
                 DateUpdatedUtc: 2017-11-12T02:11:35.7130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155784-V1
                 CatalogItemId: 026d883c-60c0-494a-b254-96babd0ae1a5
                 CatalogSku: AEZ0Y5LR
@@ -5377,7 +5377,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-14T22:31:06.6970000Z
                 DateUpdatedUtc: 2018-05-14T22:31:06.6970000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1177659-V1
                 CatalogItemId: ca333250-3db1-4e3b-b88c-970809abfca9
                 CatalogSku: YQERT0HN
@@ -5390,7 +5390,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-27T16:55:58.4500000Z
                 DateUpdatedUtc: 2018-10-08T01:02:26.8370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1023861-V1
                 CatalogItemId: 98bddfb7-1083-4db4-9c3f-97823bcee0a8
                 CatalogSku: PDGGHJ62
@@ -5403,7 +5403,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-22T00:06:32.0670000Z
                 DateUpdatedUtc: 2018-05-22T00:06:32.0670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021870-V3
                 CatalogItemId: bcee17eb-bd33-467d-a666-97e31af01629
                 CatalogSku: B7VKWAJN
@@ -5416,7 +5416,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-17T19:28:21.6300000Z
                 DateUpdatedUtc: 2018-05-17T19:28:21.6300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882121
                 CatalogItemId: 33d2aa48-4d0e-466e-87ad-980eae1738f8
                 CatalogSku: YYQFXLGQ
@@ -5455,7 +5455,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T06:46:43.4070000Z
                 DateUpdatedUtc: 2017-03-11T06:46:43.4070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1177275-V2
                 CatalogItemId: f6b6ba67-eadb-47bd-82bb-984141e32e06
                 CatalogSku: UD20Q1PW
@@ -5494,7 +5494,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-08T22:19:32.9370000Z
                 DateUpdatedUtc: 2018-09-20T18:39:06.3200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1176646-V1
                 CatalogItemId: 11737bc7-53de-4b6c-b97d-98b52e290afa
                 CatalogSku: AMM3BZ3R
@@ -5507,7 +5507,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-05T17:51:52.8870000Z
                 DateUpdatedUtc: 2018-10-05T17:51:52.8870000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042127-V4
                 CatalogItemId: b1af5b65-5535-45a3-9004-98b719f21bf6
                 CatalogSku: 8C7MNX0V
@@ -5520,7 +5520,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T22:39:18.2430000Z
                 DateUpdatedUtc: 2018-06-11T22:39:18.2430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093622-V1
                 CatalogItemId: 03385f6d-fbb6-4fcb-b50e-98d33da7d193
                 CatalogSku: 5Y71D7G6
@@ -5533,7 +5533,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-13T21:49:46.4470000Z
                 DateUpdatedUtc: 2018-08-13T21:49:46.4470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M621746
                 CatalogItemId: 32c18abb-46af-47ec-b821-98ef93e483df
                 CatalogSku: WJ2JKBF0
@@ -5559,7 +5559,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T20:05:45.9930000Z
                 DateUpdatedUtc: 2018-09-20T20:05:45.9930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1075012
                 CatalogItemId: 9177606e-d5e6-45ea-852d-9962e513ad12
                 CatalogSku: 17WGBYA7
@@ -5585,7 +5585,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T20:09:18.0600000Z
                 DateUpdatedUtc: 2017-06-05T19:35:24.2030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1175743-V3
                 CatalogItemId: b2774ec9-cc72-425c-a15d-9992ac68c095
                 CatalogSku: QJV70D4G
@@ -5598,7 +5598,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-04T20:14:52.6530000Z
                 DateUpdatedUtc: 2018-10-04T20:14:52.6530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1059269-V1
                 CatalogItemId: cea27499-1890-4c4c-8276-999e672563e1
                 CatalogSku: 4PWDPX04
@@ -5637,7 +5637,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-01T17:43:16.7530000Z
                 DateUpdatedUtc: 2018-08-01T17:43:16.7530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1039194-V3
                 CatalogItemId: 262dd11c-6c9e-4a61-940e-9a90c18410de
                 CatalogSku: BQKDVB6H
@@ -5650,7 +5650,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-07T21:11:55.5070000Z
                 DateUpdatedUtc: 2018-06-07T21:11:55.5070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078243-V2
                 CatalogItemId: 2da93f24-049d-43b2-8396-9b0ba5177671
                 CatalogSku: FDVEV3PP
@@ -5741,7 +5741,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-17T19:51:17.2400000Z
                 DateUpdatedUtc: 2018-05-17T19:51:17.2400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V1
                 CatalogItemId: fc0519e9-5187-45d9-98f4-9e154533298c
                 CatalogSku: 8VNN7FHJ
@@ -5767,7 +5767,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-23T17:32:02.2670000Z
                 DateUpdatedUtc: 2018-08-23T17:32:02.2670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061662-V1
                 CatalogItemId: d2594139-3e2d-41d4-ac15-9e2d19893627
                 CatalogSku: 4D3KDFP1
@@ -5806,7 +5806,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:59:34.5270000Z
                 DateUpdatedUtc: 2018-09-24T22:59:35.2130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042939-V1
                 CatalogItemId: e9d3ea34-9556-4857-a79f-9f564b6e01d1
                 CatalogSku: PDQZWLFC
@@ -5819,7 +5819,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-13T16:08:38.4430000Z
                 DateUpdatedUtc: 2018-06-13T16:08:38.4430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1004285-V5
                 CatalogItemId: e49b1892-a74d-41d3-b3d5-9f7235890060
                 CatalogSku: 1AX35RX6
@@ -5832,7 +5832,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-04-20T18:11:14.2100000Z
                 DateUpdatedUtc: 2018-04-20T18:29:56.3770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042127-V3
                 CatalogItemId: 68fc761e-0592-4d8f-aea3-a0e95c6278f3
                 CatalogSku: WH6DTDB2
@@ -5845,7 +5845,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T22:39:17.4300000Z
                 DateUpdatedUtc: 2018-06-11T22:39:17.4300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1053622-V3
                 CatalogItemId: a1161114-ba35-45bf-80b1-a1528182ed4b
                 CatalogSku: GV25PH1X
@@ -5858,7 +5858,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-25T20:37:54.1270000Z
                 DateUpdatedUtc: 2018-06-25T20:37:54.1270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M760133-V1
                 CatalogItemId: ac74fb4e-8ed7-449b-a499-a1b22a646392
                 CatalogSku: LNELJMXW
@@ -5897,7 +5897,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-04T19:16:20.5330000Z
                 DateUpdatedUtc: 2018-10-04T19:16:20.5330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881165
                 CatalogItemId: 8c9718f9-ef2b-44ee-84bb-a37938dc59fa
                 CatalogSku: 8QFLDW8J
@@ -5923,7 +5923,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:09.4100000Z
                 DateUpdatedUtc: 2017-02-28T20:52:44.5630000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1173561-V3
                 CatalogItemId: aea50d86-4c22-4e12-8f11-a515ee5e58e1
                 CatalogSku: 4T1DT0VP
@@ -5936,7 +5936,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-02T21:00:20.8800000Z
                 DateUpdatedUtc: 2018-10-02T21:00:20.8800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M884100
                 CatalogItemId: 10a91fd6-4528-4b75-abd7-a55bc922eb3f
                 CatalogSku: LE7TFKHE
@@ -5962,7 +5962,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:59:35.6830000Z
                 DateUpdatedUtc: 2018-09-24T22:59:36.0900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882899
                 CatalogItemId: e0f32ddb-f83b-4544-8f83-a771e79ea136
                 CatalogSku: D5540TPB
@@ -5975,7 +5975,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-13T19:35:15.6930000Z
                 DateUpdatedUtc: 2017-11-14T05:54:00.4830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078069-V3
                 CatalogItemId: 2cb6d5d5-c1da-401a-a111-a798c3d40689
                 CatalogSku: XHXQGMCC
@@ -5988,7 +5988,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-25T16:07:42.9300000Z
                 DateUpdatedUtc: 2018-07-25T16:07:42.9300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1073857-V2
                 CatalogItemId: eb6d4d63-e262-4e55-b178-a7ccc9b4bf80
                 CatalogSku: G65GA2ZH
@@ -6001,7 +6001,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-19T21:29:00.3500000Z
                 DateUpdatedUtc: 2018-07-19T21:29:00.3500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1179420-V1
                 CatalogItemId: 490683b5-0fc9-4194-b5bb-a7e6a3d0e2b1
                 CatalogSku: WA07ETQ3
@@ -6040,7 +6040,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-15T14:58:24.9900000Z
                 DateUpdatedUtc: 2018-09-20T18:39:06.3670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881146-V2
                 CatalogItemId: 9a94abf5-9f1e-43e8-8efd-a998fcb82201
                 CatalogSku: GAE24626
@@ -6118,7 +6118,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-10T22:25:15.4970000Z
                 DateUpdatedUtc: 2017-05-10T22:25:15.4970000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882064-V1
                 CatalogItemId: a923a7d4-2118-446f-b6cd-ab224f925a4a
                 CatalogSku: EFGLMJ2F
@@ -6209,7 +6209,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:01:49.8200000Z
                 DateUpdatedUtc: 2018-09-24T23:01:50.2070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V9
                 CatalogItemId: 46fbde45-f6d8-40f8-9882-ad2367c40e2c
                 CatalogSku: BRZAAP8Y
@@ -6261,7 +6261,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T22:30:30.3570000Z
                 DateUpdatedUtc: 2017-02-28T22:30:30.3570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1024707-V4
                 CatalogItemId: b5bcc74e-9557-409c-84ab-ae80996b4a5b
                 CatalogSku: BMZNDH5C
@@ -6274,7 +6274,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-23T16:16:33.3300000Z
                 DateUpdatedUtc: 2018-05-23T16:16:33.3300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1091616
                 CatalogItemId: d9e04424-20be-4cb5-b763-aebef7b1127e
                 CatalogSku: 68YW06HJ
@@ -6313,7 +6313,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-19T17:18:36.0430000Z
                 DateUpdatedUtc: 2018-09-19T17:18:36.5900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1075051
                 CatalogItemId: 4e87f353-216f-4bb2-a53e-b13f67328c80
                 CatalogSku: C4H6LEZF
@@ -6326,7 +6326,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-20T20:09:13.4600000Z
                 DateUpdatedUtc: 2018-07-20T20:09:13.4600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881115
                 CatalogItemId: 1c195c3c-f14a-49c7-8b94-b18971458908
                 CatalogSku: BCQB1XWF
@@ -6339,7 +6339,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T18:16:05.1670000Z
                 DateUpdatedUtc: 2017-11-12T02:11:06.7300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174419-V2
                 CatalogItemId: 7bd2e59d-b0f8-4981-8ddc-b21d744ea3e9
                 CatalogSku: P6HGUYJ0
@@ -6365,7 +6365,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T22:28:39.4700000Z
                 DateUpdatedUtc: 2017-02-28T22:28:39.4700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1059269-V2
                 CatalogItemId: b72c3c63-a032-486d-bedb-b29832136920
                 CatalogSku: 7W61M5KB
@@ -6378,7 +6378,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-28T19:15:06.8930000Z
                 DateUpdatedUtc: 2018-06-28T19:15:06.8930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042429-V1
                 CatalogItemId: c684d2f9-4822-4b6b-bd4d-b2b2d8fd21b0
                 CatalogSku: 7XM20KGK
@@ -6391,7 +6391,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T23:02:05.1830000Z
                 DateUpdatedUtc: 2018-06-12T16:33:11.1100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V8
                 CatalogItemId: d4146ded-2302-4074-b714-b3467e6717e7
                 CatalogSku: N65HYHQR
@@ -6404,7 +6404,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:58:50.2730000Z
                 DateUpdatedUtc: 2018-09-24T22:58:50.2730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042939-V4
                 CatalogItemId: 126dcae5-eba0-4768-b497-b38d0f350dc8
                 CatalogSku: CGM0RCFT
@@ -6430,7 +6430,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T17:23:00.4600000Z
                 DateUpdatedUtc: 2017-03-11T17:23:00.4600000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1154465-V3
                 CatalogItemId: 7477da43-0d55-4b2a-88e8-b4e43ff54f32
                 CatalogSku: QBPE7Q0Z
@@ -6443,7 +6443,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-20T21:24:44.0900000Z
                 DateUpdatedUtc: 2018-09-20T21:24:44.0900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1019257
                 CatalogItemId: 45e322b2-c7c4-4f0f-88d6-b5ded88259e8
                 CatalogSku: WCX7W5ND
@@ -6534,7 +6534,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-17T19:51:17.2400000Z
                 DateUpdatedUtc: 2018-05-17T19:51:17.2400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1064495-V4
                 CatalogItemId: 214b8bed-06c8-4216-91c0-b82d9a31024c
                 CatalogSku: VBKPNXEB
@@ -6547,7 +6547,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:19:10.6470000Z
                 DateUpdatedUtc: 2018-07-05T19:19:10.6470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1173561-V1
                 CatalogItemId: 8e4d12c8-6752-4e4f-8170-b85d0ac73b2e
                 CatalogSku: JWHRZZE8
@@ -6573,7 +6573,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-21T17:31:11.9070000Z
                 DateUpdatedUtc: 2018-09-21T17:31:11.9070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625509-V1-E94447
                 CatalogItemId: 5268914b-ec6a-4606-ba56-ba206c389889
                 CatalogSku: AWMAV5ZN
@@ -6586,7 +6586,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-12T20:44:01.7070000Z
                 DateUpdatedUtc: 2017-03-15T22:31:30.3970000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1031700-V1
                 CatalogItemId: cd175dd4-3f97-4471-b2ee-ba889c78b48b
                 CatalogSku: L6XHPTWV
@@ -6599,7 +6599,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-15T19:19:06.6630000Z
                 DateUpdatedUtc: 2018-05-30T15:45:47.2330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M879442
                 CatalogItemId: 0ab67078-1fe5-4239-a166-bace26cbf321
                 CatalogSku: NC8HZUPX
@@ -6638,7 +6638,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-24T00:52:01.8370000Z
                 DateUpdatedUtc: 2018-08-24T00:52:01.8370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155989-V3
                 CatalogItemId: 87ec9ef8-1a50-4ff3-a05d-bc2f2690b944
                 CatalogSku: KUDZPX2T
@@ -6690,7 +6690,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-08T18:33:11.9230000Z
                 DateUpdatedUtc: 2017-05-08T18:36:12.3870000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M966932
                 CatalogItemId: 57ec37c9-cf9b-45de-bade-be6f91ab71c8
                 CatalogSku: 2EYGC8U7
@@ -6729,7 +6729,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:33:33.6930000Z
                 DateUpdatedUtc: 2018-07-02T19:33:33.6930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M621749
                 CatalogItemId: 205461a7-2ffd-451f-9fba-c0a5ac8fab78
                 CatalogSku: TQFK1U0Z
@@ -6755,7 +6755,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-17T00:02:07.1100000Z
                 DateUpdatedUtc: 2017-05-17T00:02:07.1100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1175735-V1
                 CatalogItemId: 9830ff87-2497-441b-b2b9-c12eac6d84c7
                 CatalogSku: 46ZK68P2
@@ -6820,7 +6820,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-02T00:38:37.5430000Z
                 DateUpdatedUtc: 2017-03-02T00:38:37.5430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061662-V5
                 CatalogItemId: 249285e2-87f7-4671-86c1-c3aec0900a99
                 CatalogSku: QHLU33G8
@@ -6833,7 +6833,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:32:32.2630000Z
                 DateUpdatedUtc: 2018-07-02T19:32:32.2630000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949137-V5
                 CatalogItemId: 83a3b82a-550b-46ae-8606-c3e79d5c84b0
                 CatalogSku: E8UC7422
@@ -6859,7 +6859,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T17:34:55.6900000Z
                 DateUpdatedUtc: 2017-03-11T17:34:55.6900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M758258
                 CatalogItemId: bb57a156-2130-4482-bfed-c432a145bdc9
                 CatalogSku: C2F2667N
@@ -6885,7 +6885,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-24T20:26:00.6230000Z
                 DateUpdatedUtc: 2018-07-24T20:26:00.6230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1120207-V2
                 CatalogItemId: 2049dced-00e8-448a-afe6-c51681fa1a45
                 CatalogSku: YAMD4CLB
@@ -6898,7 +6898,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-30T20:34:59.0170000Z
                 DateUpdatedUtc: 2018-08-30T20:34:59.0170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1179420-V2
                 CatalogItemId: bed7537e-119b-42d9-a910-c51bff6711ec
                 CatalogSku: BE1Q4HEM
@@ -6924,7 +6924,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-24T05:07:20.9670000Z
                 DateUpdatedUtc: 2017-10-24T05:07:20.9670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V5
                 CatalogItemId: eb89fd00-eee0-4dc5-8328-c539ff539f5f
                 CatalogSku: BPLZMAAL
@@ -7054,7 +7054,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-21T14:57:23.9130000Z
                 DateUpdatedUtc: 2018-09-21T14:57:23.9130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174540-V2
                 CatalogItemId: 9eed93be-42c3-40cb-b2eb-c88f60222d2d
                 CatalogSku: DZBCBZ5B
@@ -7132,7 +7132,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T22:59:36.5330000Z
                 DateUpdatedUtc: 2018-09-24T22:59:37.1570000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M760132-V1
                 CatalogItemId: b774302a-5d05-44ff-80ba-cb80d6d814bc
                 CatalogSku: C58D84WU
@@ -7184,7 +7184,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:00:53.7700000Z
                 DateUpdatedUtc: 2018-09-24T23:00:54.1430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174882-V2
                 CatalogItemId: 5b5f3bca-c0a1-4022-88fb-cd7e82990aba
                 CatalogSku: EFUVV4GP
@@ -7197,7 +7197,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-02T17:45:49.7630000Z
                 DateUpdatedUtc: 2018-10-03T22:18:41.4170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162558-V1
                 CatalogItemId: e12e8aa3-5b48-4290-8c31-ce8ca1662d3b
                 CatalogSku: YE4E0Q6Q
@@ -7262,7 +7262,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-25T20:50:34.9100000Z
                 DateUpdatedUtc: 2018-06-25T20:50:34.9100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V4
                 CatalogItemId: b38f37ac-8d88-4345-8cb3-d14d1188d2c5
                 CatalogSku: 8UW2BUBR
@@ -7301,7 +7301,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-30T15:42:17.9430000Z
                 DateUpdatedUtc: 2018-05-30T15:42:18.6770000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881016
                 CatalogItemId: 803cad5f-e08d-47c0-b85a-d4118a26419a
                 CatalogSku: PRF0W8U1
@@ -7314,7 +7314,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T16:52:41.7700000Z
                 DateUpdatedUtc: 2017-11-12T02:11:41.4670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882132
                 CatalogItemId: 0bf9736b-bef3-4a2a-a191-d469c2c728b2
                 CatalogSku: PMXCCPRL
@@ -7340,7 +7340,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-04-20T20:12:39.8670000Z
                 DateUpdatedUtc: 2017-04-20T20:14:04.9100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949137-V4
                 CatalogItemId: 0eb0150b-a2d8-43c0-8e60-d554920eca10
                 CatalogSku: 4XQKZPBJ
@@ -7366,7 +7366,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T07:09:01.1270000Z
                 DateUpdatedUtc: 2017-03-11T07:09:01.1270000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1083079-V1
                 CatalogItemId: b5a37190-955c-4de5-8490-d65d4f92787a
                 CatalogSku: EL85H8GE
@@ -7379,7 +7379,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-01T17:28:38.7000000Z
                 DateUpdatedUtc: 2018-08-01T17:28:38.7000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093622-V5
                 CatalogItemId: 0d54183c-eb7b-4714-a8ae-d66ea3d7a00c
                 CatalogSku: 7W0ZJEXH
@@ -7418,7 +7418,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-17T19:51:17.2400000Z
                 DateUpdatedUtc: 2018-05-17T19:51:17.2400000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882097
                 CatalogItemId: 2628dc47-3637-473f-99b5-d7702b21f75d
                 CatalogSku: L4U7Z784
@@ -7470,7 +7470,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T20:07:55.7130000Z
                 DateUpdatedUtc: 2017-06-05T19:35:24.2030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089817-V1
                 CatalogItemId: 3b2e3866-4979-4988-8752-d943ed92d977
                 CatalogSku: C2JBPUEC
@@ -7483,7 +7483,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-09T22:12:17.7800000Z
                 DateUpdatedUtc: 2018-08-09T22:59:30.9030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1092093
                 CatalogItemId: e81875d1-9419-4a07-ad40-da0617feaf0c
                 CatalogSku: DHVHJ6AT
@@ -7496,7 +7496,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-08T20:23:34.4300000Z
                 DateUpdatedUtc: 2018-08-10T20:12:08.3500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M919097-V1
                 CatalogItemId: aecfca93-3cb5-4b80-ad13-da18aea9d037
                 CatalogSku: AUHYFDUK
@@ -7535,7 +7535,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-09T22:17:07.0000000Z
                 DateUpdatedUtc: 2018-08-09T22:17:07.3670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1083079-V2
                 CatalogItemId: 17482a0f-cb18-438d-b2aa-da40c2cb911f
                 CatalogSku: N23XUMU8
@@ -7574,7 +7574,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T18:18:54.0000000Z
                 DateUpdatedUtc: 2017-05-24T18:18:54.0000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155989-V1
                 CatalogItemId: 50a23cfc-bd26-4043-8ba7-daee80084e04
                 CatalogSku: 0TRUKU7N
@@ -7639,7 +7639,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-10T17:55:06.3230000Z
                 DateUpdatedUtc: 2018-07-17T19:52:15.9030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M760131-V1
                 CatalogItemId: ef012419-7d7e-4930-bbca-dcec667355bb
                 CatalogSku: 7GYUJ10M
@@ -7665,7 +7665,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-28T22:42:45.4230000Z
                 DateUpdatedUtc: 2017-08-15T20:57:23.1130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1077531-V1
                 CatalogItemId: 5f4a3896-8cbc-478a-9826-dd3de826cf14
                 CatalogSku: GPT4YUCN
@@ -7678,7 +7678,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-24T20:07:02.5130000Z
                 DateUpdatedUtc: 2018-07-24T20:07:02.5130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021870-V4
                 CatalogItemId: 9416a9cf-c798-4b7e-a300-ddc245e15171
                 CatalogSku: VQLNKA3C
@@ -7704,7 +7704,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-11T22:59:12.5330000Z
                 DateUpdatedUtc: 2018-06-11T22:59:12.5330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1024707-V2
                 CatalogItemId: b789be52-29c2-4095-aa1d-de0ceefc6b21
                 CatalogSku: QF8MKQEQ
@@ -7717,7 +7717,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-23T16:16:32.4900000Z
                 DateUpdatedUtc: 2018-05-23T16:16:32.4900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V5
                 CatalogItemId: 41601cc5-37af-4e7f-a8c0-de8b3e999ab9
                 CatalogSku: AYTA3REM
@@ -7743,7 +7743,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-07T00:04:43.7930000Z
                 DateUpdatedUtc: 2018-08-07T00:04:44.2130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M995021
                 CatalogItemId: 2a5f7670-2074-46ba-b950-dfae2c8acbf3
                 CatalogSku: N6P3QM2F
@@ -7769,7 +7769,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-08T18:28:58.5530000Z
                 DateUpdatedUtc: 2017-05-08T18:28:58.5530000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882135
                 CatalogItemId: 35f22e2d-773e-4223-8c51-dfdb48b1eed5
                 CatalogSku: RF08X46U
@@ -7782,7 +7782,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T18:16:20.6530000Z
                 DateUpdatedUtc: 2017-11-12T02:05:51.8700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078069-V2
                 CatalogItemId: 62282ce2-8268-456a-a260-e07fcb260a94
                 CatalogSku: 335FA8LM
@@ -7821,7 +7821,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-13T16:48:58.6300000Z
                 DateUpdatedUtc: 2018-07-13T16:48:58.6300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061647-V2
                 CatalogItemId: c3f369e0-02a7-4173-bce7-e22ed17c51cb
                 CatalogSku: 0DVYXBHF
@@ -7860,7 +7860,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-09T22:17:05.4830000Z
                 DateUpdatedUtc: 2018-08-09T22:17:06.0070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1176646-V2
                 CatalogItemId: 39901ab1-8f5b-4d53-b170-e371eab1304b
                 CatalogSku: L2QPNR0B
@@ -7873,7 +7873,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-05T17:51:54.1030000Z
                 DateUpdatedUtc: 2018-10-05T17:51:54.1030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M880369
                 CatalogItemId: 85dabaae-00fe-4a91-8362-e3bf31838df6
                 CatalogSku: RJW2QLR3
@@ -7899,7 +7899,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-30T23:39:37.1470000Z
                 DateUpdatedUtc: 2018-05-30T23:39:37.6100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1089789-V1
                 CatalogItemId: 9f2106d1-39ea-4218-b2ff-e3d1105b614f
                 CatalogSku: E1FQZ26Z
@@ -7964,7 +7964,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T07:24:49.3800000Z
                 DateUpdatedUtc: 2018-01-09T07:24:49.3800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1078069-V4
                 CatalogItemId: 3790efcd-ca2c-45b6-bbe9-e6d622850beb
                 CatalogSku: WPVR5QG3
@@ -7990,7 +7990,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-10T22:12:44.8930000Z
                 DateUpdatedUtc: 2017-05-10T22:12:44.8930000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M921511-V2
                 CatalogItemId: 52bb7d21-afd3-46f7-971f-e721af60ab16
                 CatalogSku: JCJNLKGK
@@ -8003,7 +8003,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T16:40:29.5670000Z
                 DateUpdatedUtc: 2018-02-06T20:35:45.7230000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1023861-V4
                 CatalogItemId: a8e03580-6de5-4e67-8321-e7e9cc6e9755
                 CatalogSku: A6AZK7NY
@@ -8029,7 +8029,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-16T17:56:16.1730000Z
                 DateUpdatedUtc: 2017-05-16T17:56:16.1730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V10
                 CatalogItemId: 7e6f5896-a8a8-46f0-819a-e8c5c0eb42df
                 CatalogSku: 4LAQVFE4
@@ -8120,7 +8120,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-04T22:48:26.2500000Z
                 DateUpdatedUtc: 2018-01-05T19:58:34.0100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1061647-V4
                 CatalogItemId: b45bb23d-4843-42fb-960c-eb03e714957b
                 CatalogSku: 8FMEY8ZD
@@ -8133,7 +8133,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-02T19:15:26.6730000Z
                 DateUpdatedUtc: 2018-07-02T19:15:26.6730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M625509-V2-E94447
                 CatalogItemId: c0526356-75eb-40af-8e18-eb234ef4048f
                 CatalogSku: A35KZMFH
@@ -8146,7 +8146,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-12T20:44:01.3100000Z
                 DateUpdatedUtc: 2017-04-11T21:21:58.3800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093622-V3
                 CatalogItemId: 1bfeabff-4494-4d27-8528-eb3ff3cb053d
                 CatalogSku: WLY8Q01M
@@ -8159,7 +8159,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-13T21:49:54.4070000Z
                 DateUpdatedUtc: 2018-08-13T21:49:54.4070000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1023861-V2
                 CatalogItemId: 5d6754a1-78c0-47f7-8bef-eb406902e760
                 CatalogSku: 76806J84
@@ -8185,7 +8185,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-02-27T22:30:07.9730000Z
                 DateUpdatedUtc: 2017-02-28T21:13:44.3100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882098-V1
                 CatalogItemId: 341bac9d-0173-42a0-b78f-eb873dc5c03d
                 CatalogSku: HW0APBQV
@@ -8224,7 +8224,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-11T16:57:16.9830000Z
                 DateUpdatedUtc: 2017-03-11T16:57:16.9830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M945404-V1
                 CatalogItemId: 874eb2f2-f3b1-49c4-8e56-ec3711da72f8
                 CatalogSku: EKFFNZQK
@@ -8237,7 +8237,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-09T18:57:48.7930000Z
                 DateUpdatedUtc: 2018-03-07T22:12:44.8730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882277
                 CatalogItemId: 5f49c579-0965-4061-968b-ecf34b9bd5fd
                 CatalogSku: HYBBC4XG
@@ -8263,7 +8263,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-24T05:07:46.9700000Z
                 DateUpdatedUtc: 2017-10-24T05:07:46.9700000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1155989-V4
                 CatalogItemId: cb59bc9b-f2ad-473f-a0c3-ed961023878c
                 CatalogSku: RTNQ74L4
@@ -8276,7 +8276,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-21T17:44:15.1500000Z
                 DateUpdatedUtc: 2018-09-21T17:44:15.1500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1048837
                 CatalogItemId: cdca664e-3f0c-4041-bdec-edab9f765aca
                 CatalogSku: XY5847DK
@@ -8289,7 +8289,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-06-19T17:58:53.4900000Z
                 DateUpdatedUtc: 2018-06-19T17:58:53.4900000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1175735-V3
                 CatalogItemId: 2ffb366d-5332-45c2-90aa-ee0b1e5be0b7
                 CatalogSku: PTMKZ7R5
@@ -8302,7 +8302,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-10-04T20:09:40.7630000Z
                 DateUpdatedUtc: 2018-10-04T20:09:40.7630000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1075762
                 CatalogItemId: 50f838f8-fe34-4875-baa8-ee62d10127e7
                 CatalogSku: D37UMY7G
@@ -8341,7 +8341,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-09T06:47:21.2800000Z
                 DateUpdatedUtc: 2018-01-09T06:47:21.2800000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1175743-V2
                 CatalogItemId: b8a1c15c-3112-4d02-8ca1-eec77b328ba9
                 CatalogSku: UJNZMDC7
@@ -8380,7 +8380,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-24T05:01:58.0430000Z
                 DateUpdatedUtc: 2017-10-24T05:01:58.0430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1159079-V6
                 CatalogItemId: bb1d6496-2d51-4175-ac04-f073145389d6
                 CatalogSku: PMEPCXGN
@@ -8445,7 +8445,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-09T22:17:02.5400000Z
                 DateUpdatedUtc: 2018-08-09T22:17:03.0500000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M881113
                 CatalogItemId: 04ab1676-6976-4aab-8673-f1740c351fbf
                 CatalogSku: 2KY2AY7E
@@ -8497,7 +8497,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-01-15T18:44:40.7100000Z
                 DateUpdatedUtc: 2018-01-15T18:44:40.7100000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1066326-V1
                 CatalogItemId: 8daf6dbe-e47a-48e2-9cf6-f38328ace713
                 CatalogSku: TTF3ULN2
@@ -8523,7 +8523,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-05-30T23:39:38.9830000Z
                 DateUpdatedUtc: 2018-05-30T23:39:39.3370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882114
                 CatalogItemId: b7dbcdf4-11d4-43cd-80ce-f41b695cf7f6
                 CatalogSku: MZF6C1B8
@@ -8536,7 +8536,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-10T17:57:49.8470000Z
                 DateUpdatedUtc: 2017-11-12T02:07:41.3330000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1077531-V2
                 CatalogItemId: 84170b14-c4af-4aa8-b28c-f481c1679979
                 CatalogSku: AK0LZJHX
@@ -8575,7 +8575,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-10-24T05:06:09.5730000Z
                 DateUpdatedUtc: 2017-10-24T05:06:09.5730000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M879457
                 CatalogItemId: 3617bfc4-5584-434d-a72a-f58f9cde1763
                 CatalogSku: A40B62E5
@@ -8588,7 +8588,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-08T00:36:44.2930000Z
                 DateUpdatedUtc: 2017-11-12T01:16:58.4200000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1174419-V3
                 CatalogItemId: 1be0ad96-b92c-4342-9704-f5f384131e5f
                 CatalogSku: 8T7Q5HAR
@@ -8614,7 +8614,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-25T18:01:19.4300000Z
                 DateUpdatedUtc: 2017-05-25T18:01:19.4300000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M621746-E94447
                 CatalogItemId: 656a1e10-fabc-47b7-a1f1-f6cb9e73d319
                 CatalogSku: ECAKE4N4
@@ -8627,7 +8627,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-03-12T20:52:33.3670000Z
                 DateUpdatedUtc: 2018-03-09T00:02:49.9130000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1021870-V2
                 CatalogItemId: 606e9ae3-a665-4938-9eaa-f6fe04fef311
                 CatalogSku: YZGYMYCP
@@ -8666,7 +8666,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:26:14.4470000Z
                 DateUpdatedUtc: 2018-07-05T19:26:14.4470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1165600-V1
                 CatalogItemId: 73216ac7-b8ca-4cd7-9834-f882f75d623e
                 CatalogSku: 7PCAERD0
@@ -8692,7 +8692,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:26:14.4470000Z
                 DateUpdatedUtc: 2018-07-05T19:26:14.4470000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1007394-V3
                 CatalogItemId: c638fbf1-e5f3-40d0-8a6d-fa21fbb1beec
                 CatalogSku: 8BCE5VKG
@@ -8718,7 +8718,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-08-02T17:01:55.6830000Z
                 DateUpdatedUtc: 2018-08-02T17:01:55.6830000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1023861-V3
                 CatalogItemId: 44925701-adfd-459e-8107-fa654bf9ec3e
                 CatalogSku: NY15APX5
@@ -8783,7 +8783,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-05-24T17:39:56.5030000Z
                 DateUpdatedUtc: 2017-05-24T17:39:56.5030000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M949137-V2
                 CatalogItemId: 79d4c7c1-fbaa-40c8-ae7e-fbf372f41b85
                 CatalogSku: FZT6XAW3
@@ -8796,7 +8796,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-03-14T16:12:09.6430000Z
                 DateUpdatedUtc: 2018-03-14T16:12:09.6430000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1064495-V3
                 CatalogItemId: c455dfea-573a-41fc-b8e6-fc229f4ce3da
                 CatalogSku: YTLUZAN0
@@ -8809,7 +8809,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-07-05T19:19:10.2170000Z
                 DateUpdatedUtc: 2018-07-05T19:19:10.2170000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1093668
                 CatalogItemId: 8719fded-e6b8-486b-a8a9-fc50498e5514
                 CatalogSku: 6TGRX7NE
@@ -8900,7 +8900,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-09-24T23:05:02.3630000Z
                 DateUpdatedUtc: 2018-09-24T23:05:02.9000000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M882081
                 CatalogItemId: 0453a4da-011a-48ff-9389-fdcebe759899
                 CatalogSku: EVVFLK54
@@ -8926,7 +8926,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2017-11-14T06:17:19.2400000Z
                 DateUpdatedUtc: 2017-11-14T06:17:55.6670000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1042453-V1
                 CatalogItemId: fd05b0aa-affb-4e78-8d49-fe9580f912c3
                 CatalogSku: VLUJH2WB
@@ -8952,7 +8952,7 @@ paths:
                 - 00000000-0000-0000-0000-000000000000
                 DateAddedUtc: 2018-02-22T21:52:43.6370000Z
                 DateUpdatedUtc: 2018-02-22T21:52:43.6370000Z
-              - RmsId: 
+              - RmsId:
                 Slug: M1162602-V3
                 CatalogItemId: 57c8842d-be80-4880-b0b5-ff27bd29b77a
                 CatalogSku: XE47WWVQ
@@ -9138,7 +9138,7 @@ paths:
                 ExtendedAttributes: []
                 DateAddedUtc: 2018-08-30T20:34:59.5930000Z
                 DateUpdatedUtc: 2018-08-30T20:34:59.5930000Z
-                RmsId: 
+                RmsId:
                 MeasurementType: SingleUnit
                 BatchTracking: true
                 NonStock: false
@@ -9157,9 +9157,9 @@ paths:
                   ParentCategories: []
                 ShortDescription: ''
                 LongDescription: ''
-                Manufacturer: 
-                MSRP: 
-                ReleaseDate: 
+                Manufacturer:
+                MSRP:
+                ReleaseDate:
                 VariationInfo: []
                 Specifications:
                 - Id: 34ce3eec-ecf9-4730-9b72-fb13fafe9bdc
@@ -9193,7 +9193,7 @@ paths:
                   Type: Image
                   IsHidden: false
                   IsRolledUp: false
-                ColorDefinition: 
+                ColorDefinition:
                 HeroShotUri: https://ams.iqmetrix.net/images/9d1da8f6-ef39-49ce-99a7-b3e6d84be9a4
                 HeroShotId: 9d1da8f6-ef39-49ce-99a7-b3e6d84be9a4
                 ManufacturerSkus: []
@@ -9204,8 +9204,8 @@ paths:
                     Id: 131287
                     Name: kings garden
                 UpcCodes: []
-                Region: 
-                Entity: 
+                Region:
+                Entity:
                 HasColor: false
                 IsLinkedToCuratedProduct: false
                 IsSaleable: true
@@ -9673,7 +9673,7 @@ paths:
               example:
                 Id: 557
                 Name: Demo Dispensary
-                Owner: 
+                Owner:
                 TotalProductCount: 578
                 Categories:
                 - Id: 558
@@ -11066,11 +11066,11 @@ paths:
                 CustomerTypeId: 2
                 CustomerType: Person
                 DateOfBirth: 1955-01-20T00:01:00.0000000
-                PricingGroupId: 
+                PricingGroupId:
                 Disabled: false
                 DoNotContact: false
                 Version: 1
-                MergedIntoCustomerId: 
+                MergedIntoCustomerId:
                 LastModifiedDateUtc: 2018-04-01T00:00:00.0000000
       servers:
       - url: https://crm{en}.iqmetrix.net/v1/Companies({CompanyId})
@@ -55171,7 +55171,7 @@ paths:
                 CompanyId: 94448
                 Name: El Segundo County Tax (Compound)
                 DisplayName: El Segundo County Tax
-                Description: 
+                Description:
                 Rate: 0.13
                 TaxRateType: Percentage
                 Layer: 1
@@ -55535,7 +55535,7 @@ components:
           type: string
           example: 8/30/2018 8:34:59 PM
       example:
-        RmsId: 
+        RmsId:
         Slug: M1120207-V3
         CatalogItemId: a0eff58d-dd54-461f-9118-0046e59a9192
         CatalogSku: DAM0B3VN
@@ -55693,7 +55693,7 @@ components:
         ExtendedAttributes: []
         DateAddedUtc: 2018-08-30T20:34:59.5930000Z
         DateUpdatedUtc: 2018-08-30T20:34:59.5930000Z
-        RmsId: 
+        RmsId:
         MeasurementType: SingleUnit
         BatchTracking: true
         NonStock: false
@@ -55712,9 +55712,9 @@ components:
           ParentCategories: []
         ShortDescription: ''
         LongDescription: ''
-        Manufacturer: 
-        MSRP: 
-        ReleaseDate: 
+        Manufacturer:
+        MSRP:
+        ReleaseDate:
         VariationInfo: []
         Specifications:
         - Id: 34ce3eec-ecf9-4730-9b72-fb13fafe9bdc
@@ -55748,7 +55748,7 @@ components:
           Type: Image
           IsHidden: false
           IsRolledUp: false
-        ColorDefinition: 
+        ColorDefinition:
         HeroShotUri: https://ams.iqmetrix.net/images/9d1da8f6-ef39-49ce-99a7-b3e6d84be9a4
         HeroShotId: 9d1da8f6-ef39-49ce-99a7-b3e6d84be9a4
         ManufacturerSkus: []
@@ -55759,8 +55759,8 @@ components:
             Id: 131287
             Name: kings garden
         UpcCodes: []
-        Region: 
-        Entity: 
+        Region:
+        Entity:
         HasColor: false
         IsLinkedToCuratedProduct: false
         IsSaleable: true
@@ -56603,7 +56603,7 @@ components:
       example:
         Id: 557
         Name: Demo Dispensary
-        Owner: 
+        Owner:
         TotalProductCount: 578
         Categories:
         - Id: 558
@@ -57441,13 +57441,13 @@ components:
           type: string
           nullable: true
       example:
-        Monday: 
-        Tuesday: 
-        Wednesday: 
-        Thursday: 
-        Friday: 
-        Saturday: 
-        Sunday: 
+        Monday:
+        Tuesday:
+        Wednesday:
+        Thursday:
+        Friday:
+        Saturday:
+        Sunday:
     TimeZone:
       title: TimeZone
       required:
@@ -58229,11 +58229,11 @@ components:
         CustomerTypeId: 2
         CustomerType: Person
         DateOfBirth: 1955-01-20T00:01:00.0000000
-        PricingGroupId: 
+        PricingGroupId:
         Disabled: false
         DoNotContact: false
         Version: 1
-        MergedIntoCustomerId: 
+        MergedIntoCustomerId:
         LastModifiedDateUtc: 2018-04-01T00:00:00.0000000
     CustomerExtension:
       title: CustomerExtension
@@ -99903,7 +99903,7 @@ components:
         CompanyId: 94448
         Name: El Segundo County Tax (Compound)
         DisplayName: El Segundo County Tax
-        Description: 
+        Description:
         Rate: 0.13
         TaxRateType: Percentage
         Layer: 1
@@ -100122,11 +100122,8 @@ security:
 tags:
 - name: Authenication
   description: >-
-    
-    In order to make authorized requests to COVA APIs, your application must first obtain an Access Token.
-
 - name: Catalog
-  description: 
+  description:
 - name: Classification Tree
 - name: Company Tree
 - name: CRM
@@ -100135,11 +100132,11 @@ tags:
 - name: Inventory Cost, Adjustment, and Transfers
 - name: Inventory Availability
 - name: Cova Orders
-  description: 
+  description:
 - name: Pricing
   description: >-
 - name: Point of Sale
 - name: POS Reports
 - name: Purchase Orders
 - name: Taxes
-  description: More endpoints located at https://github.com/iQmetrix/IQ.Platform.IQTaxes/blob/develop/README.md
+  description:

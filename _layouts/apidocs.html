@@ -112,8 +112,58 @@ layout: default
         </div>
 
         <div class="col-lg-7 row-height" style="background-color:white">
-            <h1>{{ page.title }}</h1>
-            <div id="markdown-content-container">{{ content }}</div>
+            <h1>{{ link.tags }}</h1>
+            <div id="markdown-content-container">
+
+
+
+
+                <h3>{{ link.summary}}</h3>
+                <br>
+                <br>
+
+                {{ method | upcase }}
+                <i>
+                    {{ path }}
+                </i>
+
+                <br>
+                <br>
+
+                {{ link.description }}
+
+                <br>
+                <br>
+                <br>
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th> Parameter: </th>
+                            <th> Location: </th>
+                            <th> Description: </th>
+                            <th> Required?: </th>
+                            <th> Data Type: </th>
+                            <th> Example: </th>
+                        </tr>
+                    </thead>
+
+                    {% for parameter in link.parameters %}
+
+
+                    <tbody>
+                        <tr>
+                            <td> {{ parameter.name }} </td>
+                            <td> {{ parameter.in }} </td>
+                            <td> {{ parameter.description }} </td>
+                            <td> {{ parameter.required }} </td>
+                            <td> {{ parameter.schema.type }} </td>
+                            <td> {{ parameter.schema.example }} </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>
             <p class="text-center">
                 <br />
                 <a target="_blank" href="{{site.git_edit_address}}/{{ page.path }}" class="btn btn-default githubEditButton" role="button">
@@ -143,3 +193,4 @@ layout: default
         </div>
     </div>
     </div>
+

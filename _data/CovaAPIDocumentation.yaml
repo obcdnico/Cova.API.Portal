@@ -55193,7 +55193,7 @@ paths:
       tags:
       - Taxes
       summary: Get all Tax Categories for a Company
-      description: 'TODO: Add Description'
+      description: 'This gets all the tax categories for a company'
       operationId: GetAllTaxCategoriesForACompany
       parameters:
       - name: Content-Type
@@ -55324,7 +55324,7 @@ paths:
       tags:
       - Taxes
       summary: Get Details for a Tax Category
-      description: 'TODO: Add Description'
+      description: 'This API Pulls all the details for a particular tax category'
       operationId: GetDetailsForATaxCategory
       parameters:
       - name: Content-Type

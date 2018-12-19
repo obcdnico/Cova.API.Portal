@@ -49,11 +49,17 @@ layout: default
 
 
 
-                    <h1> API Index </h1>
+                    <h3>Cova API List</h3>
 
 
                     {% for group in api_category %}
-                    <h3>{{  group }} </h3>
+                    {% assign  menu = {{group[0] | remove: " " | remove: "," }} %}
+
+                    <nav>
+                        <ul class="nav">
+                          <li>
+                              <a href="#" id="btn-{{ menu }}" data-toggle="collapse" data-target="#{{ menu }}" style="color:black" aria-expanded="false">{{ group }} </a>
+                                <ul class="nav collapse" id="{{ menu }}" role="menu" aria-labelledby="btn-{{ menu }}">
 
                     {% for item in site.data.CovaAPIDocumentation.paths %}
 
@@ -61,23 +67,44 @@ layout: default
 
                     {% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
                     {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
+                    {% assign method = "post"  %}
                     {% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
                     {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
+                    {% assign method = "get"  %}
                     {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
                     {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
+                    {% assign method = "delete"  %}
                     {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
                     {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
+                    {% assign method = "put"  %}
                     {% else %}
                     {% assign category = "Misc %}
                     {% endif %}
+
+                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
+
+
                    <ul>
                         {% if category == group %}
 
-                        <li>{{ path }}</li>
+                      <br>
+                        <li>
+                      {{ link.summary }}
+                        </li>
+
+                          {{ method | upcase }}
+                          <i>
+                          {{ path }}
+                          </i>
+
+
 
                         {% endif %}
                     </ul>
                         {% endfor %}
+                    </ul>
+                    </li>
+                    <br>
                         {% endfor %}
 
                 </nav>

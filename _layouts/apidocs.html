@@ -83,13 +83,14 @@ layout: default
 
                     {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
 
-
+                    <!-- -->
                    <ul>
                         {% if category == group %}
 
                       <br>
+
                         <li>
-                      {{ link.summary }}
+                  <a href="#"  {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}>  Fix this tomorrow {{ link.summary }} </a>
                         </li>
 
                           {{ method | upcase }}
@@ -193,4 +194,3 @@ layout: default
         </div>
     </div>
     </div>
-

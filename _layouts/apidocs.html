@@ -6,7 +6,7 @@ layout: default
     <div class="row">
         <div class="col-lg-2 row-height" style="background-color:gainsboro">
             <div id="markdown-content-container">
-                <nav>
+                
                     {% assign api_categories = "" %}
                     {% assign api_categories = "" | split: ',' %}
 
@@ -15,17 +15,13 @@ layout: default
 
                     {% assign path = item[0] %}
 
-                    {% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
-                    {% else %}
-                    {% assign category = "Misc %}
-                    {% endif %}
+                    {% assign details = item[1] | split: ", " %}
+                    {% assign details1 = details[0] | split: "=>{"  %}
+                    {% assign method = details1[0] | remove: '{' | remove: '"' %}
+                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
+                    {% assign category = link.tags %}
+
+
                     {% assign  api_categories =  api_categories | push: category | sort %}
                     {% endfor %}
 
@@ -53,64 +49,46 @@ layout: default
 
 
                     {% for group in api_category %}
-                    {% assign  menu = {{group[0] | remove: " " | remove: "," }} %}
-
+                    {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
+                   
                     <nav>
                         <ul class="nav">
-                          <li>
-                              <a href="#" id="btn-{{ menu }}" data-toggle="collapse" data-target="#{{ menu }}" style="color:black" aria-expanded="false">{{ group }} </a>
+                            <li>
+                                <a href="#" id="btn-{{ menu }}" data-toggle="collapse" data-target="#{{ menu }}" style="color:black" aria-expanded="false">{{ group }} </a>
                                 <ul class="nav collapse" id="{{ menu }}" role="menu" aria-labelledby="btn-{{ menu }}">
 
-                    {% for item in site.data.CovaAPIDocumentation.paths %}
+                                    {% for item in site.data.CovaAPIDocumentation.paths %}
 
-                    {% assign path = item[0] %}
+                                    {% assign path = item[0] %}
 
-                    {% if site.data.CovaAPIDocumentation.paths[path].post.tags  %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].post.tags %}
-                    {% assign method = "post"  %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].get.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].get.tags %}
-                    {% assign method = "get"  %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].delete.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].delete.tags %}
-                    {% assign method = "delete"  %}
-                    {% elsif site.data.CovaAPIDocumentation.paths[path].put.tags %}
-                    {% assign category = site.data.CovaAPIDocumentation.paths[path].put.tags %}
-                    {% assign method = "put"  %}
-                    {% else %}
-                    {% assign category = "Misc %}
-                    {% endif %}
+                                    {% assign details = item[1] | split: ", " %}
+                                    {% assign details1 = details[0] | split: "=>{"  %}
+                                    {% assign method = details1[0] | remove: '{' | remove: '"' | remove: '}' %}
+                                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
+                                    {% assign category = link.tags %}
+                                    <br />
+                                    <ul>
+                                        {% if category == group %}
+                                        <li>
+                                            <a href="#" > {{ link.summary }} </a>
+                                        </li>
 
-                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
-                    {% assign api == link %}
+                                        {{ method | upcase }}
+                                        <i>
+                                            {{ path }}
+                                        </i>
+                                      <br />
+                                        {% endif %}
+                                    </ul>
+                                    {% endfor %}
+                                </ul>
+                            
+                            <br />
+                            {% endfor %}
 
-                    <!-- -->
-                   <ul>
-                        {% if category == group %}
+                    </nav>
 
-                      <br>
-
-                        <li>
-                  <a href = "{% assign api = link %}"">  Fix this tomorrow {{ link.summary }} </a>
-                        </li>
-                      
-                          {{ method | upcase }}
-                          <i>
-                          {{ path }}
-                          </i>
-
-
-
-                        {% endif %}
-                    </ul>
-                        {% endfor %}
-                    </ul>
-                    </li>
-                    <br>
-                        {% endfor %}
-
-                </nav>
-            </div>
+</div>
         </div>
 
         <div class="col-lg-7 row-height" style="background-color:white">
@@ -120,7 +98,7 @@ layout: default
 
 
 
-                <h3>{{ api.summary}}</h3>
+                <h3>{{ link.summary}}</h3>
                 <br>
                 <br>
 
@@ -132,7 +110,7 @@ layout: default
                 <br>
                 <br>
 
-                {{ api.description }}
+                {{ link.description }}
 
                 <br>
                 <br>
@@ -149,7 +127,7 @@ layout: default
                         </tr>
                     </thead>
 
-                    {% for parameter in api.parameters %}
+                    {% for parameter in link.parameters %}
 
 
                     <tbody>
@@ -164,7 +142,9 @@ layout: default
                         {% endfor %}
                     </tbody>
                 </table>
+                {% assign path = "/items" %}
 
+               
             </div>
             <p class="text-center">
                 <br />

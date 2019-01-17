@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-2 row-height" style="background-color:gainsboro">
+        <div class="col-lg-3 row-height" style="background-color:gainsboro">
             <div id="markdown-content-container">
 
                 {% assign api_categories = "" %}
@@ -91,7 +91,7 @@ layout: default
             </div>
         </div>
 
-        <div class="col-lg-7 row-height" id="accordion" style="background-color:white">
+        <div class="col-lg-6 row-height" id="accordion" style="background-color:white">
 
             <h1> API Description </h1>
             
@@ -113,54 +113,140 @@ layout: default
 
                 {% if category == group %}
                 
-                    <div id="details{{forloop.index0}}"  class="collapse">
-                        <h3>{{ link.summary}}</h3>
-                        <br>
-                        <br>
+            <div id="details{{forloop.index0}}" class="collapse">
+                <h3>{{ link.summary}}</h3>
+                <br>
+                <br>
 
-                        {{ method | upcase }}
-                        <i>
-                            {{ path }}
-                        </i>
+                {{ method | upcase }}
+                <i>
+                    {{ path }}
+                </i>
 
-                        <br>
-                        <br>
+                <br>
+                <br>
 
-                        {{ link.description }}
+                {{ link.description }}
 
-                        <br>
-                        <br>
-                        <br>
-                        <table id="example" class="table table-striped table-bordered" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th> Parameter: </th>
-                                    <th> Location: </th>
-                                    <th> Description: </th>
-                                    <th> Required?: </th>
-                                    <th> Data Type: </th>
-                                    <th> Example: </th>
-                                </tr>
-                            </thead>
+                <br>
+                <br>
+                <br>
 
-                            {% for parameter in link.parameters %}
+                <!--
+    API Header
+    -->
+
+                <h4>API Header</h4>
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th> Parameter: </th>
+                            <th> Location: </th>
+                            <th> Description: </th>
+                            <th> Required?: </th>
+                            <th> Data Type: </th>
+                            <th> Example: </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        {% if link.operationId != "ObtainingAnAccessToken" %}
+                        <tr>
+                            <td> Authorization </td>
+                            <td> header </td>
+                            <td>  </td>
+                            <td> true </td>
+                            <td> GUID </td>
+                            <td> Bearer NFhBShGwTko0HURKNKgxSzRYCC9EDxkTZCIQGGwxCxBBEA8bXxsiJ3oteT1EHBcPbRoZE3IhI3llG3AreBQgfUw2AzkNIiMBTS8A </td>
+                        </tr>
+                        {% endif %}
+
+                        {% for parameter in link.parameters %}
+
+                        <tr>
+                            <td> {{ parameter.name }} </td>
+                            <td> {{ parameter.in }} </td>
+                            <td> {{ parameter.description }} </td>
+                            <td> {{ parameter.required }} </td>
+                            <td> {{ parameter.schema.type }} </td>
+                            <td> {{ parameter.schema.example }} </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
 
 
-                            <tbody>
-                                <tr>
-                                    <td> {{ parameter.name }} </td>
-                                    <td> {{ parameter.in }} </td>
-                                    <td> {{ parameter.description }} </td>
-                                    <td> {{ parameter.required }} </td>
-                                    <td> {{ parameter.schema.type }} </td>
-                                    <td> {{ parameter.schema.example }} </td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                    </div>
+
+                <!--
+    API Body for Post Method
+     -->
+                {% if method == "post" or method == "put" %}
+                {% assign rbc = link.requestBody.content | split: "=>{"  %}
+                {% assign rbcontent = rbc[0] | remove: '{' | remove: '"' | remove: '}' | remove: "'" %}
+                <br>
+                <h4> API Body </h4>
+                <br />
+
+                <h4>Body Example</h4>
+
+                {% if link.requestBody.content[rbcontent].schema.type == "object"  %}
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th> Key: </th>
+                            <th> Data Type: </th>
+                            <th> Description: </th>
+                            <th> Example: </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        {% for bodyproperties in link.requestBody.content[rbcontent].schema.properties %}
+
+                        {% assign subbodyproperties = bodyproperties | remove: '{' | remove: '"' | remove: '}'| remove: '[' | remove: ']' | remove: '\'  %}
+
+                        {% assign keyvaluebodyproperties = subbodyproperties | replace: "=>", "," %}
+
+                        {% assign spllitkeyvaluebodyproperties = keyvaluebodyproperties | split: ','  %}
+
+                        <tr>
+                            <td> {{ spllitkeyvaluebodyproperties[0] }} </td>
+                            {% if spllitkeyvaluebodyproperties[1] == " type" %}
+                            <td> {{ spllitkeyvaluebodyproperties[2] }} </td>
+                            {% else %}
+                            <td></td>
+                            {% endif %}
+                            {% if spllitkeyvaluebodyproperties[3] == " description" %}
+                            <td> {{ spllitkeyvaluebodyproperties[4] }} </td>
+                            {% else %}
+                            <td></td>
+                            {% endif %}
+                            {% if spllitkeyvaluebodyproperties[5] == " example" %}
+                            <td> {{ spllitkeyvaluebodyproperties[6] }} </td>
+                            {% else %}
+                            <td></td>
+                            {% endif %}
+                        </tr>
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+                {% else %}
+
+                {{link.requestBody.content[rbcontent].schema.example }}
+                {% endif %}
+
+                <h5>Required Fields</h5>
+
+                {% for required in link.requestBody.content[rbcontent].schema.required %}
+                {% assign requiredHeader = required | remove: '{' | remove: '"' | remove: '}' %}
+                {{requiredHeader}}
+                <br />
+                {% endfor %}
+                {% endif %}
+            </div>
                
-                    {% endif %}
+                {% endif %}
                
                 {% endfor %}
 
@@ -173,8 +259,11 @@ layout: default
                     <div id="markdown-content-container" style="color:gold">
                         {% assign con = "application/hal+json" %}
                         {% assign res = "200" %}
-
-                        {{link.responses}}
+                        {% for item in link.responses %}
+                        {{item}}
+                        <br>
+                        <br>
+                        {% endfor %}
 
                     </div>
                 </div>

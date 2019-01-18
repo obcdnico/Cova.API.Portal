@@ -153,7 +153,7 @@ layout: default
                         {% if link.operationId != "ObtainingAnAccessToken" %}
                         <tr>
                             <td> Authorization </td>
-                            <td> header </td>
+                            <td> Header </td>
                             <td>  </td>
                             <td> true </td>
                             <td> GUID </td>
@@ -165,7 +165,7 @@ layout: default
 
                         <tr>
                             <td> {{ parameter.name }} </td>
-                            <td> {{ parameter.in }} </td>
+                            <td> {{ parameter.in | capitalize }} </td>
                             <td> {{ parameter.description }} </td>
                             <td> {{ parameter.required }} </td>
                             <td> {{ parameter.schema.type }} </td>
@@ -233,28 +233,56 @@ layout: default
                 </table>
                 {% else %}
 
-                {{link.requestBody.content[rbcontent].schema.example }}
+
+                
+                {% assign bodybracket = link.requestBody.content[rbcontent].schema.example | split: "[" %}
+
+                [ <br />
+                {% for bracketlevel1 in bodybracket  %}
+                <div style="padding-left: 1em;">
+                    [ <br />
+
+                    {% assign bracketline1 = bracketlevel1 | split: '{"' %}
+                    {% for fieldline1 in bracketline1  %}
+                    <div style="padding-left: 1.5em;">
+                        [ <br />
+                        {% assign fieldlevel1 =  fieldline1 | split: "," %}
+                        {% for field1 in fieldlevel1 %}
+                        <div style="padding-left: 2em;">
+                            {{field1}}
+                            <br />
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+
+
+
+
                 {% endif %}
 
                 <h5>Required Fields</h5>
 
                 {% for required in link.requestBody.content[rbcontent].schema.required %}
                 {% assign requiredHeader = required | remove: '{' | remove: '"' | remove: '}' %}
-                {{requiredHeader}}
-                <br />
+                {{requiredHeader}}, 
+                
                 {% endfor %}
                 {% endif %}
             </div>
-               
+
                 {% endif %}
-               
-                {% endfor %}
 
                 {% endfor %}
 
+                {% endfor %}
 
-           
-        </div>
+
+
+            </div>
                 <div class="col-lg-3 row-height" style="background-color:black">
                     <div id="markdown-content-container" style="color:gold">
                         {% assign con = "application/hal+json" %}

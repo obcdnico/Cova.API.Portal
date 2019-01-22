@@ -13792,7 +13792,7 @@ paths:
         required: true
       responses:
         202:
-          description: ''
+          description: 'Test - Remove'
           headers:
             Content-Length:
               content:

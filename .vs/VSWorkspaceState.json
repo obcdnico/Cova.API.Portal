@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\dist",
     "\\swagger-ui",
     "\\_about",
     "\\_apidocs",
-    "\\_data",
-    "\\_docs",
-    "\\_includes",
     "\\_layouts",
-    "\\_plugins"
+    "\\_sass",
+    "\\_sass\\bootstrap",
+    "\\_sass\\bootswatch"
   ],
   "SelectedNode": "\\_layouts\\apidocs.html",
   "PreviewInSolutionExplorer": false

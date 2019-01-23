@@ -1,100 +1,106 @@
 ---
 layout: default
 ---
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 sidebar" style="padding-bottom: 100%; background-color: gainsboro">
+                <div id="markdown-content-container">
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-3 sidebar"  style="padding-bottom: 100%;background-color:gainsboro">
-            <div id="markdown-content-container">
-
-                {% assign api_categories = "" %}
-                {% assign api_categories = "" | split: ',' %}
-
-
-                {% for item in site.data.CovaAPIDocumentation.paths %}
-
-                {% assign path = item[0] %}
-
-                {% assign details = item[1] | split: ", " %}
-                {% assign details1 = details[0] | split: "=>{"  %}
-                {% assign method = details1[0] | remove: '{' | remove: '"' %}
-                {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
-                {% assign category = link.tags %}
+                    {% assign api_categories = "" %}
+                    {% assign api_categories = "" | split: ',' %}
 
 
-                {% assign  api_categories =  api_categories | push: category | sort %}
-                {% endfor %}
+                    {% for item in site.data.CovaAPIDocumentation.paths %}
+
+                    {% assign path = item[0] %}
+
+                    {% assign details = item[1] | split: ", " %}
+                    {% assign details1 = details[0] | split: "=>{"  %}
+                    {% assign method = details1[0] | remove: '{' | remove: '"' %}
+                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
+                    {% assign category = link.tags %}
 
 
-                {% assign  api_categories =  api_categories | sort %}
+                    {% assign  api_categories =  api_categories | push: category | sort %}
+                    {% endfor %}
 
 
-                {% assign api_category = "" %}
-                {% assign api_category = "" | split: ',' %}
-                {% assign current_category = "" %}
+                    {% assign  api_categories =  api_categories | sort %}
 
 
-                {% for item in api_categories %}
+                    {% assign api_category = "" %}
+                    {% assign api_category = "" | split: ',' %}
+                    {% assign current_category = "" %}
 
-                {% if item != current_category %}
-                {% assign  api_category =  api_category | push: item | sort %}
-                {% assign current_category = item %}
-                {% endif %}
-                {% endfor %}
 
+                    {% for item in api_categories %}
+
+                    {% if item != current_category %}
+                    {% assign  api_category =  api_category | push: item | sort %}
+                    {% assign current_category = item %}
+                    {% endif %}
+                    {% endfor %}
 
 
 
-                <h3>Cova API List</h3>
+
+                    <h3>Cova API List</h3>
 
 
-                {% for group in api_category %}
-                {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
+                    {% for group in api_category %}
+                    {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
 
-                <nav>
-                    <ul class="nav">
-                        <li>
-                            <a href="#" id="btn-{{ menu }}" data-toggle="collapse" onclick="return false;" data-target="#{{ menu }}" style="color:black" aria-expanded="false">{{ group }} </a>
-                            <ul class="nav collapse" id="{{ menu }}" role="menu" aria-labelledby="btn-{{ menu }}">
+                    <nav>
+                        <ul class="nav">
+                            <li>
+                                <a href="#" id="btn-{{ menu }}" data-toggle="collapse" onclick="return false;" data-target="#{{ menu }}" style="color:black" aria-expanded="false">{{ group }} </a>
+                                <ul class="nav collapse" id="{{ menu }}" role="menu" aria-labelledby="btn-{{ menu }}">
 
-                                {% for item in site.data.CovaAPIDocumentation.paths %}
+                                    {% for item in site.data.CovaAPIDocumentation.paths %}
 
-                                {% assign path = item[0] %}
-                                
-                                {% assign details = item[1] | split: ", " %}
-                                {% assign details1 = details[0] | split: "=>{"  %}
-                                {% assign method = details1[0] | remove: '{' | remove: '"' | remove: '}' %}
-                                {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
-                                {% assign category = link.tags %}
-                                <ul>
-                                    {% if category == group %}
-                                    <li>
-                                        <a href="#" data-toggle="collapse" data-target="#details{{forloop.index0}}">{{ link.summary }} </a>
+                                    {% assign path = item[0] %}
 
-                                    </li>
+                                    {% assign details = item[1] | split: ", " %}
+                                    {% assign details1 = details[0] | split: "=>{"  %}
+                                    {% assign method = details1[0] | remove: '{' | remove: '"' | remove: '}' %}
+                                    {% assign link = site.data.CovaAPIDocumentation.paths[path][method] %}
+                                    {% assign category = link.tags %}
+                                    <ul>
+                                        {% if category == group %}
+                                        <li>
+                                            <h4>
+                                                <b>
+                                                    <i>
+                                                        <a href="#" data-toggle="collapse" data-target="#details{{forloop.index0}}" style="color:darkslategray">{{ link.summary }}  </a>
+                                                    </i>
+                                                </b>
+                                            </h4>
+                                        </li>
 
-                                    {{ method | upcase }}
-                                    <i>
-                                        {{ path }}
-                                    </i>
-                                  
-                                    {% endif %}
+                                        <h5>Method: {{ method | upcase }}</h5>
+                                        <i>
+                                            <!--
+                                            {{ path }}
+                                               -->
+                                        </i>
+
+                                        {% endif %}
+                                    </ul>
+                                    {% endfor %}
                                 </ul>
+
+                                <br />
                                 {% endfor %}
-                            </ul>
 
-                            <br />
-                            {% endfor %}
+                    </nav>
 
-                </nav>
-
+                </div>
             </div>
-        </div>
 
-        <div class="col-lg-9 row-height" id="accordion" style="background-color:white">
+            <div class="col-lg-9 row-height" id="accordion" style="background-color:white">
 
-            <h1> API Description </h1>
-            
+                <h1> API Description </h1>
+
 
                 {% for group in api_category %}
                 {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
@@ -112,144 +118,144 @@ layout: default
                 {% assign category = link.tags %}
 
                 {% if category == group %}
-                
-            <div id="details{{forloop.index0}}" class="collapse">
-                <h3>{{ link.summary}}</h3>
-                <br>
-                <br>
 
-                {{ method | upcase }}
-                <i>
-                    {{ path }}
-                </i>
-
-                <br>
-                <br>
-                <div class="special-class" markdown="1">
-
-                    <div markdown="1">
-                        {{ link.description | markdownify  }}
-                    </div>
-                </div>
-
-                <br>
-                <br>
-                <br>
-
-
-                <!--    API Header    -->
-
-
-
-                <div>
-                    <h4>API Header</h4>
-                    <table id="example" class="table table-striped table-bordered" style="width:100%">
-                        <thead>
-                            <tr>
-                                <th> Parameter: </th>
-                                <th> Location: </th>
-                                <th> Description: </th>
-                                <th> Required?: </th>
-                                <th> Data Type: </th>
-                                <th> Example: </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            {% if link.operationId != "ObtainingAnAccessToken" %}
-                            <tr>
-                                <td> Authorization </td>
-                                <td> Header </td>
-                                <td>  </td>
-                                <td> true </td>
-                                <td> GUID </td>
-                                <td> Bearer NFhBShGwTko0HURKNKgxSzRYCC9EDxkTZCIQGGwxCxBBEA8bXxsiJ3oteT1EHBcPbRoZE3IhI3llG3AreBQgfUw2AzkNIiMBTS8A </td>
-                            </tr>
-                            {% endif %}
-
-                            {% for parameter in link.parameters %}
-
-                            <tr>
-                                <td> {{ parameter.name }} </td>
-                                <td> {{ parameter.in | capitalize }} </td>
-                                <td> {{ parameter.description }} </td>
-                                <td> {{ parameter.required }} </td>
-                                <td> {{ parameter.schema.type }} </td>
-                                <td> {{ parameter.schema.example }} </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-
-
-                <div>
-                    <!--    API Body for Post/Put Method     -->
-                    {% if method == "post" or method == "put" %}
-                    {% assign rbc = link.requestBody.content | split: "=>{"  %}
-                    {% assign rbcontent = rbc[0] | remove: '{' | remove: '"' | remove: '}' | remove: "'" %}
+                <div id="details{{forloop.index0}}" class="collapse">
+                    <h3>{{ link.summary}}</h3>
                     <br>
-                    <h4> API Body </h4>
-                    <br />
+                    <br>
 
-                    <h4>Body Example</h4>
+                    {{ method | upcase }}
+                    <i>
+                        {{ path }}
+                    </i>
 
-                    {% if link.requestBody.content[rbcontent].schema.type == "object"  %}
+                    <br>
+                    <br>
+                    <div class="special-class" markdown="1">
 
-                    <table id="example" class="table table-striped table-bordered" style="width:100%">
-                        <thead>
-                            <tr>
-                                <th> Key: </th>
-                                <th> Data Type: </th>
-                                <th> Description: </th>
-                                <th> Example: </th>
-                            </tr>
-                        </thead>
-                        <tbody>
+                        <div markdown="1">
+                            {{ link.description | markdownify  }}
+                        </div>
+                    </div>
 
-                            {% for bodyproperties in link.requestBody.content[rbcontent].schema.properties %}
+                    <br>
+                    <br>
+                    <br>
 
-                            {% assign subbodyproperties = bodyproperties | remove: '{' | remove: '"' | remove: '}'| remove: '[' | remove: ']' | remove: '\'  %}
 
-                            {% assign keyvaluebodyproperties = subbodyproperties | replace: "=>", "," %}
+                    <!--    API Header    -->
 
-                            {% assign spllitkeyvaluebodyproperties = keyvaluebodyproperties | split: ','  %}
 
-                            <tr>
-                                <td> {{ spllitkeyvaluebodyproperties[0] }} </td>
-                                {% if spllitkeyvaluebodyproperties[1] == " type" %}
-                                <td> {{ spllitkeyvaluebodyproperties[2] }} </td>
-                                {% else %}
-                                <td></td>
+
+                    <div>
+                        <h4>API Header</h4>
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th> Parameter: </th>
+                                    <th> Location: </th>
+                                    <th> Description: </th>
+                                    <th> Required?: </th>
+                                    <th> Data Type: </th>
+                                    <th> Example: </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                {% if link.operationId != "ObtainingAnAccessToken" %}
+                                <tr>
+                                    <td> Authorization </td>
+                                    <td> Header </td>
+                                    <td>  </td>
+                                    <td> true </td>
+                                    <td> GUID </td>
+                                    <td> Bearer NFhBShGwTko0HURKNKgxSzRYCC9EDxkTZCIQGGwxCxBBEA8bXxsiJ3oteT1EHBcPbRoZE3IhI3llG3AreBQgfUw2AzkNIiMBTS8A </td>
+                                </tr>
                                 {% endif %}
-                                {% if spllitkeyvaluebodyproperties[3] == " description" %}
-                                <td> {{ spllitkeyvaluebodyproperties[4] }} </td>
-                                {% else %}
-                                <td></td>
-                                {% endif %}
-                                {% if spllitkeyvaluebodyproperties[5] == " example" %}
-                                <td> {{ spllitkeyvaluebodyproperties[6] }} </td>
-                                {% else %}
-                                <td></td>
-                                {% endif %}
-                            </tr>
-                            {% endfor %}
 
-                        </tbody>
-                    </table>
+                                {% for parameter in link.parameters %}
 
-                    <h5>Required Fields</h5>
-
-                    {% for required in link.requestBody.content[rbcontent].schema.required %}
-                    {% assign requiredHeader = required | remove: '{' | remove: '"' | remove: '}' %}
-                    {{requiredHeader}},
-
-                    {% endfor %}
+                                <tr>
+                                    <td> {{ parameter.name }} </td>
+                                    <td> {{ parameter.in | capitalize }} </td>
+                                    <td> {{ parameter.description }} </td>
+                                    <td> {{ parameter.required }} </td>
+                                    <td> {{ parameter.schema.type }} </td>
+                                    <td> {{ parameter.schema.example }} </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
 
 
-                    {% else %}
-                   
-                    {% assign jsonboady = link.requestBody.content[rbcontent].example | replace: "{{", "(" | replace: "
+                    <div>
+                        <!--    API Body for Post/Put Method     -->
+                        {% if method == "post" or method == "put" %}
+                        {% assign rbc = link.requestBody.content | split: "=>{"  %}
+                        {% assign rbcontent = rbc[0] | remove: '{' | remove: '"' | remove: '}' | remove: "'" %}
+                        <br>
+                        <h4> API Body </h4>
+                        <br />
+
+                        <h4>Body Example</h4>
+
+                        {% if link.requestBody.content[rbcontent].schema.type == "object"  %}
+
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th> Key: </th>
+                                    <th> Data Type: </th>
+                                    <th> Description: </th>
+                                    <th> Example: </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                {% for bodyproperties in link.requestBody.content[rbcontent].schema.properties %}
+
+                                {% assign subbodyproperties = bodyproperties | remove: '{' | remove: '"' | remove: '}'| remove: '[' | remove: ']' | remove: '\'  %}
+
+                                {% assign keyvaluebodyproperties = subbodyproperties | replace: "=>", "," %}
+
+                                {% assign spllitkeyvaluebodyproperties = keyvaluebodyproperties | split: ','  %}
+
+                                <tr>
+                                    <td> {{ spllitkeyvaluebodyproperties[0] }} </td>
+                                    {% if spllitkeyvaluebodyproperties[1] == " type" %}
+                                    <td> {{ spllitkeyvaluebodyproperties[2] }} </td>
+                                    {% else %}
+                                    <td></td>
+                                    {% endif %}
+                                    {% if spllitkeyvaluebodyproperties[3] == " description" %}
+                                    <td> {{ spllitkeyvaluebodyproperties[4] }} </td>
+                                    {% else %}
+                                    <td></td>
+                                    {% endif %}
+                                    {% if spllitkeyvaluebodyproperties[5] == " example" %}
+                                    <td> {{ spllitkeyvaluebodyproperties[6] }} </td>
+                                    {% else %}
+                                    <td></td>
+                                    {% endif %}
+                                </tr>
+                                {% endfor %}
+
+                            </tbody>
+                        </table>
+
+                        <h5>Required Fields</h5>
+
+                        {% for required in link.requestBody.content[rbcontent].schema.required %}
+                        {% assign requiredHeader = required | remove: '{' | remove: '"' | remove: '}' %}
+                        {{requiredHeader}},
+
+                        {% endfor %}
+
+
+                        {% else %}
+
+                        {% assign jsonboady = link.requestBody.content[rbcontent].example | replace: "{{", "(" | replace: "
                         }}", ")" %}
                         {% assign bodybracket = jsonboady | split: "{" %}
 
@@ -271,11 +277,11 @@ layout: default
                             <br />
 
                             {% if field1 contains '[' %}
-                            <p style="padding-left: 50px;">
+                            <div style="padding-left: 50px;">
                                 {% endif %}
 
                                 {% if field1 contains ']' %}
-                            </p>
+                            </div>
                             {% endif %}
 
                             {% endfor %}
@@ -293,72 +299,72 @@ layout: default
 
                         <br />
                         <br />
-</div>
+                    </div>
 
 
 
 
-                <div>
-
-                    <!--     API Respose     -->
-
-                    <h3>API Response</h3>
-
-                    {% assign resp = link.responses | split: '=>' %}
-
-                    {% assign responsecode = resp[0] | remove: '{' | remove: '"' | remove: '}' %}
-
-                    Resonse Code {{responsecode}}<br />
-
-
-
-
-                    {% for particle in link.responses %}
-                    {% for responseline in particle[1]  %}
-
-                    {% if responseline[0] == "content" %}
-
-                    <h4>Response Example: </h4>
-                    <br />
-
-                    {% for responselinepart in responseline[1] %}
-                    {% for responselinepart2 in responselinepart[1] %}
-
-                    {% if responselinepart2[0] == "example" %}
-                    [
-                   
                     <div>
-                        <!--New Code-->
-                        {% assign exampleresponsebodybracket = responselinepart2[1] | split: "{" %}
 
-                        {% for exampleresponsebracketlevel1 in exampleresponsebodybracket  %}
+                        <!--     API Respose     -->
 
-                        {% if exampleresponsebracketlevel1 != "" %}
-                        {<br />
-                        {% endif %}
+                        <h3>API Response</h3>
 
-                        {% assign exampleresponsefieldlevel1 =  exampleresponsebracketlevel1 | split: "," %}
+                        {% assign resp = link.responses | split: '=>' %}
 
-                        {% for exampleresponsefield1 in exampleresponsefieldlevel1 %}
+                        {% assign responsecode = resp[0] | remove: '{' | remove: '"' | remove: '}' %}
 
-                        {{exampleresponsefield1}}
+                        Resonse Code {{responsecode}}<br />
+
+
+
+
+                        {% for particle in link.responses %}
+                        {% for responseline in particle[1]  %}
+
+                        {% if responseline[0] == "content" %}
+
+                        <h4>Response Example: </h4>
                         <br />
 
-                        {% if exampleresponsefield1 contains '[' %}
-                        <p style="padding-left: 50px;">
+                        {% for responselinepart in responseline[1] %}
+                        {% for responselinepart2 in responselinepart[1] %}
+
+                        {% if responselinepart2[0] == "example" %}
+                        [
+
+                        <div>
+                            <!--New Code-->
+                            {% assign exampleresponsebodybracket = responselinepart2[1] | split: "{" %}
+
+                            {% for exampleresponsebracketlevel1 in exampleresponsebodybracket  %}
+
+                            {% if exampleresponsebracketlevel1 != "" %}
+                            {<br />
                             {% endif %}
 
-                            {% if exampleresponsefield1 contains ']' %}
-                        </p>
-                        {% endif %}
-                    
+                            {% assign exampleresponsefieldlevel1 =  exampleresponsebracketlevel1 | split: "," %}
 
-                        {% endfor %}
+                            {% for exampleresponsefield1 in exampleresponsefieldlevel1 %}
 
-                        {% endfor %}
+                            {{exampleresponsefield1}}
+                            <br />
 
-                        <!--New Code-->
-                    </div>
+                            {% if exampleresponsefield1 contains '[' %}
+                            <p style="padding-left: 50px;">
+                                {% endif %}
+
+                                {% if exampleresponsefield1 contains ']' %}
+                            </p>
+                            {% endif %}
+
+
+                            {% endfor %}
+
+                            {% endfor %}
+
+                            <!--New Code-->
+                        </div>
 
                         ]
                         {% endif %}
@@ -429,8 +435,8 @@ layout: default
 
 
 
-            </div>
-                
+                </div>
+
                 {% endif %}
 
                 {% endfor %}
@@ -440,6 +446,6 @@ layout: default
 
 
             </div>
-                
-            </div>
+
+        </div>
     </div>

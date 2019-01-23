@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3 row-height" style="background-color:gainsboro">
+        <div class="col-lg-3 sidebar"  style="padding-bottom: 100%;background-color:gainsboro">
             <div id="markdown-content-container">
 
                 {% assign api_categories = "" %}
@@ -195,6 +195,7 @@ layout: default
                     <h4>Body Example</h4>
 
                     {% if link.requestBody.content[rbcontent].schema.type == "object"  %}
+
                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
@@ -247,52 +248,52 @@ layout: default
 
 
                     {% else %}
+                   
+                    {% assign jsonboady = link.requestBody.content[rbcontent].example | replace: "{{", "(" | replace: "
+                        }}", ")" %}
+                        {% assign bodybracket = jsonboady | split: "{" %}
 
-
-                    {% assign jsonboady = link.requestBody.content[rbcontent].schema.example | replace: "{{", "(" | replace: "}}", ")" %}
-                    {% assign bodybracket = jsonboady | split: "{" %}
-
-                    <div style="padding-left: 10px;">
-                        {% for bracketlevel1 in bodybracket  %}
-                        {% if bracketlevel1 != "" %}
-                        {<br />
-                        {% endif %}
-
-
-                        {% assign bracketline1 = bracketlevel1 %}
-                        {% assign fieldline1 = bracketline1 %}
-
-
-                        {% assign fieldlevel1 =  fieldline1 | split: "," %}
-                        {% for field1 in fieldlevel1 %}
-
-                        {{field1}}
-                        <br />
-
-                        {% if field1 contains '[' %}
-                        <div style="padding-left: 50px;">
+                        <div style="padding-left: 10px;">
+                            {% for bracketlevel1 in bodybracket  %}
+                            {% if bracketlevel1 != "" %}
+                            {<br />
                             {% endif %}
 
-                            {% if field1 contains ']' %}
+
+                            {% assign bracketline1 = bracketlevel1 %}
+                            {% assign fieldline1 = bracketline1 %}
+
+
+                            {% assign fieldlevel1 =  fieldline1 | split: "," %}
+                            {% for field1 in fieldlevel1 %}
+
+                            {{field1}}
+                            <br />
+
+                            {% if field1 contains '[' %}
+                            <p style="padding-left: 50px;">
+                                {% endif %}
+
+                                {% if field1 contains ']' %}
+                            </p>
+                            {% endif %}
+
+                            {% endfor %}
+
+
+
+                            {% endfor %}
+
+                            }<br />
+
+
                         </div>
                         {% endif %}
+                        {% endif %}
 
-                        {% endfor %}
-
-
-
-                        {% endfor %}
-
-                        }<br />
-
-
-                    </div>
-                    {% endif %}
-                    {% endif %}
-
-                    <br />
-                    <br />
-                </div>
+                        <br />
+                        <br />
+</div>
 
 
 
@@ -325,62 +326,52 @@ layout: default
 
                     {% if responselinepart2[0] == "example" %}
                     [
-                    {{responselinepart2[1]}}
+                   
                     <div>
                         <!--New Code-->
-                       
-                        <!--
                         {% assign exampleresponsebodybracket = responselinepart2[1] | split: "{" %}
 
-                        <div style="padding-left: 10px;">
-                            {% for exampleresponsebracketlevel1 in exampleresponsebodybracket  %}
-                            {% if exampleresponsebracketlevel1 != "" %}
-                            {<br />
+                        {% for exampleresponsebracketlevel1 in exampleresponsebodybracket  %}
+
+                        {% if exampleresponsebracketlevel1 != "" %}
+                        {<br />
+                        {% endif %}
+
+                        {% assign exampleresponsefieldlevel1 =  exampleresponsebracketlevel1 | split: "," %}
+
+                        {% for exampleresponsefield1 in exampleresponsefieldlevel1 %}
+
+                        {{exampleresponsefield1}}
+                        <br />
+
+                        {% if exampleresponsefield1 contains '[' %}
+                        <p style="padding-left: 50px;">
                             {% endif %}
 
+                            {% if exampleresponsefield1 contains ']' %}
+                        </p>
+                        {% endif %}
+                    
 
-                            {% assign exampleresponsebracketline1 = exampleresponsebracketlevel1 %}
-                            {% assign exampleresponsefieldline1 = exampleresponsebracketline1 %}
+                        {% endfor %}
 
+                        {% endfor %}
 
-                            {% assign exampleresponsefieldlevel1 =  exampleresponsefieldline1 | split: "," %}
-                            {% for exampleresponsefield1 in exampleresponsefieldlevel1 %}
-
-                            {{exampleresponsefield1}}
-                            <br />
-
-                            {% if exampleresponsefield1 contains '[' %}
-                            <div style="padding-left: 50px;">
-                                {% endif %}
-
-                                {% if exampleresponsefield1 contains ']' %}
-                            </div>
-                            {% endif %}
-                            {% endfor %}
-
-                            {% endfor %}
-
-
-
-                            }<br />
-
-
-                        </div>
-                        -->
                         <!--New Code-->
                     </div>
-                    ]
-                    {% endif %}
 
-                    {% endfor %}
-                    {% endfor %}
+                        ]
+                        {% endif %}
 
-                    {% endif %}
+                        {% endfor %}
+                        {% endfor %}
 
-                    {% endfor %}
-                    {% endfor %}
+                        {% endif %}
 
-                </div>
+                        {% endfor %}
+                        {% endfor %}
+
+                    </div>
 
 
 

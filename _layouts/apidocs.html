@@ -120,14 +120,9 @@ layout: default
                 {% if category == group %}
 
                 <div id="details{{forloop.index0}}" class="collapse">
-                    <h3>{{ link.summary}}</h3>
+                    <h2><b>{{ link.summary}}</b></h2>
                     <br>
-                    <br>
-
-                    {{ method | upcase }}
-                    <i>
-                        {{ path }}
-                    </i>
+                    <h3>{{ method | upcase }} <i> {{ path }} </i> </h3>
 
                     <br>
                     <br>
@@ -140,7 +135,7 @@ layout: default
 
                     <br>
                     <br>
-                    <br>
+
 
 
                     <!--    API Header    -->
@@ -148,7 +143,7 @@ layout: default
 
 
                     <div>
-                        <h3 >API Header</h3>
+                        <h3>API Header</h3>
                         <table id="example" class="table table-striped table-bordered" style="width:100%">
                             <thead>
                                 <tr>
@@ -255,8 +250,7 @@ layout: default
 
                         {% else %}
 
-                        {% assign jsonboady = link.requestBody.content[rbcontent].example | replace: "{{", "(" | replace: "
-                        }}", ")" %}
+                        {% assign jsonboady = link.requestBody.content[rbcontent].example | replace: "{{", "(" | replace: "}}", ")" %}
                         {% assign bodybracket = jsonboady | split: "{" %}
 
                         <div style="color:darkgreen;padding-left: 10px;">
@@ -366,8 +360,8 @@ layout: default
                         ]
 
                         {% endif %}
-                       
-                       
+
+
                         {% endfor %}
                         {% endfor %}
 
@@ -375,11 +369,11 @@ layout: default
 
                         {% endfor %}
                         {% endfor %}
-
+                        <hr style="border: 1px solid black;" />
                     </div>
 
                 </div>
-
+             
                 {% endif %}
 
                 {% endfor %}

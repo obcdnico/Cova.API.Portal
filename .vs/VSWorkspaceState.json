@@ -8,9 +8,9 @@
     "\\_apidocs",
     "\\_data",
     "\\_docs",
-    "\\_layouts",
-    "\\_sass"
+    "\\_includes",
+    "\\_layouts"
   ],
-  "SelectedNode": "\\_data\\CovaAPIDocumentation.yaml",
+  "SelectedNode": "\\_layouts\\apidocs.html",
   "PreviewInSolutionExplorer": false
 }

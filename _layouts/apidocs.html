@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row">
-            <div class="col-lg-3 sidebar" style="padding-bottom: 100%; background-color: gainsboro">
+            <div class="col-lg-3 sidebar"  style="min-height: 100%; padding-bottom: 9999px; background-color:whitesmoke">
+               
                 <div id="markdown-content-container">
 
                     {% assign api_categories = "" %}
@@ -44,8 +45,8 @@ layout: default
 
 
 
-                    <h3>Cova API List</h3>
-
+                    <h2>Cova API List</h2>
+                    <hr style="border: 1px solid black;" />
 
                     {% for group in api_category %}
                     {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
@@ -80,8 +81,8 @@ layout: default
                                         <h5>Method: {{ method | upcase }}</h5>
                                         <i>
                                             <!--
-                                            {{ path }}
-                                               -->
+                            {{ path }}
+                               -->
                                         </i>
 
                                         {% endif %}
@@ -99,8 +100,8 @@ layout: default
 
             <div class="col-lg-9 row-height" id="accordion" style="background-color:white">
 
-                <h1> API Description </h1>
-
+                <h2> API Description </h2>
+                <hr style="border: 1px solid black;" />
 
                 {% for group in api_category %}
                 {% assign  menu = group[0] | remove: " " | remove: "," | remove: '}'  %}
@@ -373,7 +374,7 @@ layout: default
                     </div>
 
                 </div>
-             
+
                 {% endif %}
 
                 {% endfor %}

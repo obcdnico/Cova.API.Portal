@@ -148,7 +148,7 @@ layout: default
 
 
                     <div>
-                        <h4>API Header</h4>
+                        <h3 >API Header</h3>
                         <table id="example" class="table table-striped table-bordered" style="width:100%">
                             <thead>
                                 <tr>
@@ -189,16 +189,16 @@ layout: default
                     </div>
 
 
-                    <div>
+                    <div style="color:darkgreen">
                         <!--    API Body for Post/Put Method     -->
                         {% if method == "post" or method == "put" %}
                         {% assign rbc = link.requestBody.content | split: "=>{"  %}
                         {% assign rbcontent = rbc[0] | remove: '{' | remove: '"' | remove: '}' | remove: "'" %}
                         <br>
-                        <h4> API Body </h4>
+                        <h3 style="color:darkgreen"> API Body </h3>
                         <br />
 
-                        <h4>Body Example</h4>
+                        <h4 style="color:darkgreen">Body Example</h4>
 
                         {% if link.requestBody.content[rbcontent].schema.type == "object"  %}
 
@@ -259,7 +259,7 @@ layout: default
                         }}", ")" %}
                         {% assign bodybracket = jsonboady | split: "{" %}
 
-                        <div style="padding-left: 10px;">
+                        <div style="color:darkgreen;padding-left: 10px;">
                             {% for bracketlevel1 in bodybracket  %}
                             {% if bracketlevel1 != "" %}
                             {<br />
@@ -277,7 +277,7 @@ layout: default
                             <br />
 
                             {% if field1 contains '[' %}
-                            <div style="padding-left: 50px;">
+                            <div style="color:darkgreen;padding-left: 50px;">
                                 {% endif %}
 
                                 {% if field1 contains ']' %}
@@ -304,20 +304,17 @@ layout: default
 
 
 
-                    <div>
+                    <div style="color:darkblue">
 
                         <!--     API Respose     -->
 
-                        <h3>API Response</h3>
+                        <h3 style="color:darkblue">API Response</h3>
 
                         {% assign resp = link.responses | split: '=>' %}
 
                         {% assign responsecode = resp[0] | remove: '{' | remove: '"' | remove: '}' %}
 
                         Resonse Code {{responsecode}}<br />
-
-
-
 
                         {% for particle in link.responses %}
                         {% for responseline in particle[1]  %}
@@ -367,8 +364,10 @@ layout: default
                         </div>
 
                         ]
-                        {% endif %}
 
+                        {% endif %}
+                       
+                       
                         {% endfor %}
                         {% endfor %}
 
@@ -378,62 +377,6 @@ layout: default
                         {% endfor %}
 
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 </div>
 

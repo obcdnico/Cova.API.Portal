@@ -6,11 +6,11 @@
     "\\swagger-ui",
     "\\_about",
     "\\_apidocs",
+    "\\_data",
+    "\\_docs",
     "\\_layouts",
-    "\\_sass",
-    "\\_sass\\bootstrap",
-    "\\_sass\\bootswatch"
+    "\\_sass"
   ],
-  "SelectedNode": "\\_layouts\\apidocs.html",
+  "SelectedNode": "\\_data\\CovaAPIDocumentation.yaml",
   "PreviewInSolutionExplorer": false
 }
